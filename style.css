@@ -89,34 +89,52 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .btn--white:hover{background:var(--gray-50);transform:translateY(-2px);box-shadow:var(--shadow-md)}
 .btn--sm{padding:.6rem 1.4rem;font-size:.85rem}
 
-/* ---------- Top Bar ---------- */
-.top-bar{background:var(--gray-900);color:var(--gray-300);font-size:.82rem;padding:.45rem 0}
-.top-bar .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
-.top-bar a{color:var(--gray-300);transition:color .2s}
-.top-bar a:hover{color:var(--orange-400)}
-.top-bar__phone{font-weight:700;font-size:.95rem;color:var(--white);letter-spacing:.5px}
-.top-bar__phone svg{width:16px;height:16px;margin-right:4px;vertical-align:middle}
+/* ---------- Site Header (2-Row Layout matching One Hour) ---------- */
+.site-header{background:var(--white);position:sticky;top:0;z-index:1000;transition:box-shadow .3s}
+.site-header.scrolled{box-shadow:var(--shadow-md)}
 
-/* ---------- Header / Nav ---------- */
-.header{background:var(--white);border-bottom:1px solid var(--gray-200);position:sticky;top:0;z-index:1000;transition:box-shadow .3s}
-.header.scrolled{box-shadow:var(--shadow-md)}
-.header .container{display:flex;align-items:center;justify-content:space-between;height:72px}
-.logo{font-family:var(--font-display);font-size:1.55rem;font-weight:900;color:var(--gray-900)}
+/* Row 1: Utility bar — Find Us + Phone */
+.header-row1{padding:.5rem 0;border-bottom:1px solid var(--gray-200)}
+.header-row1 .container{display:flex;align-items:center;justify-content:space-between}
+.header-row1__left{display:flex;align-items:center;gap:.4rem}
+.header-row1__pin{width:22px;height:22px;color:var(--gold)}
+.header-row1__location-link{color:#D50032;font-size:.9rem;font-weight:600;text-decoration:underline;text-underline-offset:2px;transition:color .2s}
+.header-row1__location-link:hover{color:var(--orange-600)}
+.header-row1__right{display:flex;align-items:center;gap:.6rem}
+.header-row1__phone-icon{position:relative;width:40px;height:40px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center}
+.header-row1__phone-icon svg{width:18px;height:18px;color:var(--gray-900)}
+.header-row1__247{position:absolute;bottom:-2px;right:-4px;font-size:.5rem;font-weight:800;color:var(--gray-900);background:var(--gold);padding:1px 3px;border-radius:2px;line-height:1}
+.header-row1__phone-number{font-size:1.6rem;font-weight:900;color:var(--gray-900);letter-spacing:.5px;font-family:var(--font-body)}
+.header-row1__phone-number:hover{color:var(--orange-600)}
+
+/* Row 2: Logo + Nav + Book Now */
+.header-row2{padding:.4rem 0}
+.header-row2 .container{display:flex;align-items:center;justify-content:space-between;height:70px}
+.header-row2__right{display:flex;align-items:center;gap:0}
+
+/* Logo */
+.logo{font-family:var(--font-display);font-size:1.7rem;font-weight:900;color:var(--gray-900)}
 .logo span{color:var(--orange-600)}
 .logo small{display:block;font-family:var(--font-body);font-size:.6rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gray-500);margin-top:-4px}
+
+/* Nav */
 .nav{display:flex;align-items:center;gap:0}
-.nav__link{position:relative;padding:.5rem 1rem;font-size:.92rem;font-weight:600;color:var(--gray-700);transition:color .2s}
+.nav__link{position:relative;padding:.5rem 1.1rem;font-size:.95rem;font-weight:600;color:var(--gray-900);transition:color .2s}
 .nav__link:hover,.nav__link.active{color:var(--orange-600)}
 .nav__link::after{content:'';position:absolute;bottom:0;left:1rem;right:1rem;height:2px;background:var(--orange-600);transform:scaleX(0);transition:transform .3s var(--ease)}
 .nav__link:hover::after,.nav__link.active::after{transform:scaleX(1)}
+
 /* Dropdown */
 .nav__item{position:relative}
 .nav__dropdown{position:absolute;top:100%;left:0;min-width:240px;background:var(--white);border-radius:var(--radius-md);box-shadow:var(--shadow-lg);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s var(--ease);z-index:100}
 .nav__item:hover .nav__dropdown{opacity:1;visibility:visible;transform:translateY(0)}
 .nav__dropdown a{display:block;padding:.55rem 1.2rem;font-size:.88rem;font-weight:500;color:var(--gray-700);transition:all .2s}
 .nav__dropdown a:hover{background:var(--orange-100);color:var(--orange-600);padding-left:1.5rem}
-.header__cta{margin-left:1rem}
-.header__phone{display:none;font-weight:700;color:var(--gray-900);font-size:.95rem;margin-left:var(--sp-sm)}
+
+/* Book Now Button — Red like One Hour */
+.btn--book-now{background:#D50032;color:var(--white);font-weight:800;padding:.7rem 1.6rem;font-size:.9rem;letter-spacing:.5px;text-transform:uppercase;border-radius:var(--radius-sm);margin-left:1rem;transition:all .2s}
+.btn--book-now:hover{background:#B8002B;transform:translateY(-1px);box-shadow:var(--shadow-sm)}
+
 /* Mobile menu toggle */
 .menu-toggle{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer}
 .menu-toggle span{width:24px;height:2px;background:var(--gray-900);border-radius:2px;transition:all .3s}
@@ -326,22 +344,25 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .hero__image{display:none}
   .stats-row{grid-template-columns:repeat(2,1fr)}
   .contact-grid{grid-template-columns:1fr}
-  .header__phone{display:none}
+  .header-row1__phone-number{font-size:1.2rem}
 }
 @media(max-width:768px){
   .menu-toggle{display:flex}
-  .nav{position:fixed;top:72px;left:0;right:0;background:var(--white);flex-direction:column;padding:var(--sp-md);box-shadow:var(--shadow-lg);transform:translateY(-120%);transition:transform .35s var(--ease);z-index:999;border-top:1px solid var(--gray-200)}
+  .nav{position:fixed;top:120px;left:0;right:0;background:var(--white);flex-direction:column;padding:var(--sp-md);box-shadow:var(--shadow-lg);transform:translateY(-120%);transition:transform .35s var(--ease);z-index:999;border-top:1px solid var(--gray-200)}
   .nav.open{transform:translateY(0)}
   .nav__link{padding:.75rem 0;width:100%;border-bottom:1px solid var(--gray-100)}
   .nav__item{width:100%}
   .nav__dropdown{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;padding:0 0 0 1rem;display:none}
   .nav__item.open .nav__dropdown{display:block}
-  .header__cta{display:none}
+  .btn--book-now{display:none}
+  .header-row2__right{display:contents}
   .zip-bar .container{flex-direction:column;text-align:center}
   .zip-bar__form{flex-direction:column;width:100%}
   .zip-bar__input{width:100%}
   .footer__grid{grid-template-columns:1fr}
   .footer__bottom{flex-direction:column;text-align:center}
-  .top-bar .container{justify-content:center}
+  .header-row1__phone-number{font-size:1.1rem}
+  .header-row1__phone-icon{width:32px;height:32px}
+  .header-row1__phone-icon svg{width:14px;height:14px}
   .pricing-grid{grid-template-columns:1fr}
 }
