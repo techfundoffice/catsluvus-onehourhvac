@@ -221,6 +221,14 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .rep-card__date{font-size:.82rem;color:var(--gray-500);margin-bottom:.75rem}
 .rep-card__text{font-size:.9rem;color:var(--gray-700);line-height:1.65}
 
+/* ---------- Row 5: Value Prop (Two-column text + image) ---------- */
+.value-prop{background:var(--gray-50)}
+.value-prop__grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-xl);align-items:center}
+.value-prop__eyebrow{font-family:var(--font-body);font-weight:700;font-size:.95rem;letter-spacing:2px;text-transform:uppercase;color:#D50032;margin-bottom:.3rem}
+.value-prop__title{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;color:var(--gray-900);text-transform:uppercase;line-height:1.1;margin-bottom:var(--sp-md)}
+.value-prop__body{font-size:.95rem;color:var(--gray-700);line-height:1.75;margin-bottom:var(--sp-md)}
+.value-prop__image-placeholder{width:100%;aspect-ratio:4/3;border-radius:var(--radius-lg);background:var(--gray-100);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;box-shadow:var(--shadow-md)}
+
 /* ---------- Why Choose Us ---------- */
 .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--sp-md)}
 .feature{text-align:center;padding:var(--sp-md)}
@@ -384,6 +392,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .stats-row{grid-template-columns:repeat(2,1fr)}
   .services-icon-row{grid-template-columns:repeat(3,1fr)}
   .rep-cards-track{grid-template-columns:repeat(2,1fr)}
+  .value-prop__grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
   .header-top__phone{font-size:1.3rem}
 }
