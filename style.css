@@ -198,6 +198,29 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .service-icon-card:hover .service-icon-card__circle{border-color:var(--orange-600);box-shadow:var(--shadow-md)}
 .service-icon-card__label{font-weight:700;font-size:.92rem;color:var(--gray-900)}
 
+/* ---------- Row 4: Reputation / Reviews (Yellow Section) ---------- */
+.reputation-section{overflow:hidden}
+.reputation-section__header{background:#FFD200;padding:var(--sp-xl) 0 var(--sp-lg);text-align:center;position:relative}
+.reputation-section__header .container{display:flex;align-items:center;justify-content:center;gap:var(--sp-lg)}
+.reputation-nav{width:48px;height:48px;border-radius:50%;border:3px solid var(--gray-900);background:transparent;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .2s;flex-shrink:0;color:var(--gray-900)}
+.reputation-nav:hover{background:var(--gray-900);color:var(--white)}
+.reputation-section__text{max-width:700px}
+.reputation-section__title{font-family:var(--font-display);font-size:clamp(1.6rem,3.5vw,2.6rem);font-weight:900;color:var(--gray-900);text-transform:uppercase;line-height:1.15;margin-bottom:.25rem}
+.reputation-section__subtitle{font-family:var(--font-display);font-size:clamp(1.1rem,2.5vw,1.7rem);font-weight:800;color:#D50032;text-transform:uppercase;line-height:1.2;margin-bottom:var(--sp-md)}
+.reputation-section__badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(0,0,0,.75);padding:.5rem 1.2rem;border-radius:999px}
+.reputation-section__google-g{width:22px;height:22px;flex-shrink:0}
+.reputation-section__stars{color:var(--gold);font-size:1.2rem;letter-spacing:1px}
+.reputation-section__score{font-size:1.4rem;font-weight:900;color:var(--white)}
+.reputation-section__count{font-size:.85rem;color:rgba(255,255,255,.7)}
+.reputation-section__cards{background:#FFD200;padding:0 0 var(--sp-xl)}
+.rep-cards-track{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-md)}
+.rep-card{background:var(--white);border-radius:var(--radius-md);padding:var(--sp-md) var(--sp-md) var(--sp-lg);position:relative}
+.rep-card__quote{position:absolute;top:-8px;right:16px;font-size:3rem;font-weight:900;color:#D50032;line-height:1;font-family:Georgia,serif}
+.rep-card__author{font-weight:800;font-size:.92rem;color:var(--gray-900);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.3rem}
+.rep-card__stars{color:var(--gold);font-size:1.1rem;margin-bottom:.3rem;letter-spacing:1px}
+.rep-card__date{font-size:.82rem;color:var(--gray-500);margin-bottom:.75rem}
+.rep-card__text{font-size:.9rem;color:var(--gray-700);line-height:1.65}
+
 /* ---------- Why Choose Us ---------- */
 .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--sp-md)}
 .feature{text-align:center;padding:var(--sp-md)}
@@ -360,6 +383,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .hero__right::before{display:none}
   .stats-row{grid-template-columns:repeat(2,1fr)}
   .services-icon-row{grid-template-columns:repeat(3,1fr)}
+  .rep-cards-track{grid-template-columns:repeat(2,1fr)}
   .contact-grid{grid-template-columns:1fr}
   .header-top__phone{font-size:1.3rem}
 }
@@ -386,4 +410,8 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .services-header{flex-direction:column;align-items:flex-start}
   .services-icon-row{grid-template-columns:repeat(2,1fr)}
   .service-icon-card__circle{width:80px;height:80px;font-size:2rem}
+  .reputation-nav{display:none}
+  .rep-cards-track{grid-template-columns:1fr}
+  .reputation-section__title{font-size:1.4rem}
+  .reputation-section__subtitle{font-size:1rem}
 }
