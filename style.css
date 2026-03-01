@@ -1025,3 +1025,27 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .timeline__year{width:45px;height:45px;font-size:.65rem;left:-30px}
   .search-modal__form{flex-direction:column}
 }
+
+/* ---------- Article Info (relocated to bottom) ---------- */
+.article-info-section {
+  background: var(--gray-50);
+  border-top: 1px solid var(--gray-200);
+  padding: 3rem 0;
+}
+.article-info-section .breadcrumb-nav {
+  margin-bottom: 1rem;
+}
+.article-info-section .byline-bar {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+.article-info-section .tldr-box {
+  margin-bottom: 1.5rem;
+}
+.article-info-section .toc {
+  margin-top: 1.5rem;
+}
+.article-info-section .toc__title {
+  font-size: 1rem;
+}

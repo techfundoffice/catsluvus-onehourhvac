@@ -257,66 +257,8 @@
   </div>
 </header>
 
-<!-- Breadcrumb + TL;DR + TOC -->
-<section class="breadcrumb-bar" aria-label="Breadcrumb">
-  <div class="container">
-    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
-      <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="index.html" itemprop="item"><span itemprop="name">Home</span></a>
-          <meta itemprop="position" content="1">
-        </li>
-      </ol>
-    </nav>
-
-    <!-- Author Byline + Date -->
-    <div class="byline-bar">
-      <span class="byline-bar__author">By <a href="about-us.html" rel="author">The Cats Luv Us Team</a></span>
-      <span class="byline-bar__sep">|</span>
-      <time datetime="2026-02-28" class="byline-bar__date">Last Updated: February 28, 2026</time>
-      <span class="byline-bar__sep">|</span>
-      <span class="byline-bar__read-time">8 min read</span>
-      <span class="byline-bar__sep">|</span>
-      <span class="byline-bar__fact-check" title="This content is reviewed by our team of cat care professionals">Fact-checked by our Cat Care Specialists</span>
-    </div>
-
-    <!-- TL;DR Summary Box -->
-    <div class="tldr-box" id="main-content">
-      <h2 class="tldr-box__title">At a Glance: Cats Luv Us Boarding Hotel</h2>
-      <p class="tldr-box__text">Orange County's only cat-exclusive boarding, grooming, and daycare facility. Family-owned since 1993 with a 4.9-star Google rating from 500+ reviews. Located at 27601 Forbes Rd, Laguna Niguel, CA 92677. Standard suites from $32/night. Call <a href="tel:9495821732">(949) 582-1732</a> to book.</p>
-      <div class="tldr-box__actions">
-        <a href="contact.html" class="btn btn--cta btn--sm">Book Now</a>
-        <button class="btn btn--outline btn--sm" id="printPage" aria-label="Print this page">Print / Save</button>
-        <div class="social-share" aria-label="Share this page">
-          <span class="social-share__label">Share:</span>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://catsluvus.com/" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook" class="social-share__link">FB</a>
-          <a href="https://twitter.com/intent/tweet?url=https://catsluvus.com/&text=Check out Cats Luv Us Boarding Hotel" target="_blank" rel="noopener noreferrer" aria-label="Share on X" class="social-share__link">X</a>
-          <a href="mailto:?subject=Cats Luv Us Boarding Hotel&body=Check out this great cat boarding place: https://catsluvus.com/" aria-label="Share via Email" class="social-share__link">Email</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Table of Contents -->
-    <nav class="toc" aria-label="Table of Contents" id="toc">
-      <h3 class="toc__title">Jump To Section</h3>
-      <ol class="toc__list">
-        <li><a href="#services-section" class="toc__link">Our Services</a></li>
-        <li><a href="#how-it-works" class="toc__link">How It Works</a></li>
-        <li><a href="#reviews-section" class="toc__link">Reviews &amp; Reputation</a></li>
-        <li><a href="#care-promise" class="toc__link">5-Point Care Promise</a></li>
-        <li><a href="#comparison" class="toc__link">Us vs. Typical Boarding</a></li>
-        <li><a href="#faq-section" class="toc__link">FAQ</a></li>
-        <li><a href="#myths-section" class="toc__link">Cat Boarding Myths</a></li>
-        <li><a href="#cost-estimator" class="toc__link">Cost Estimator</a></li>
-        <li><a href="#stats-section" class="toc__link">Our Impact</a></li>
-        <li><a href="#timeline-section" class="toc__link">Our Journey</a></li>
-      </ol>
-    </nav>
-  </div>
-</section>
-
 <!-- Hero -->
-<section class="hero">
+<section class="hero" id="main-content">
   <div class="hero__bg-watermark"></div>
   <div class="hero__left">
     <div class="hero__content">
@@ -1114,6 +1056,67 @@
         <a href="https://www.yelp.com/biz/cats-luv-us-boarding-hotel-laguna-niguel" target="_blank" rel="noopener noreferrer" aria-label="Yelp">Yelp</a>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Article Info Section (Page Information — moved from top) -->
+<section class="section article-info-section" aria-label="Page information">
+  <div class="container">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+      <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="index.html" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1">
+        </li>
+      </ol>
+    </nav>
+
+    <!-- Author Byline + Date -->
+    <div class="byline-bar">
+      <span class="byline-bar__author">By <a href="about-us.html" rel="author">The Cats Luv Us Team</a></span>
+      <span class="byline-bar__sep">|</span>
+      <time datetime="2026-02-28" class="byline-bar__date">Last Updated: February 28, 2026</time>
+      <span class="byline-bar__sep">|</span>
+      <span class="byline-bar__read-time">8 min read</span>
+      <span class="byline-bar__sep">|</span>
+      <span class="byline-bar__fact-check" title="This content is reviewed by our team of cat care professionals">Fact-checked by our Cat Care Specialists</span>
+    </div>
+
+    <!-- Quick Summary (formerly TL;DR) -->
+    <div class="tldr-box">
+      <h2 class="tldr-box__title">Quick Summary: Cats Luv Us Boarding Hotel</h2>
+      <p class="tldr-box__text">Orange County's only cat-exclusive boarding, grooming, and daycare facility. Family-owned since 1993 with a 4.9-star Google rating from 500+ reviews. Located at 27601 Forbes Rd, Laguna Niguel, CA 92677. Standard suites from $32/night. Call <a href="tel:9495821732">(949) 582-1732</a> to book.</p>
+      <div class="tldr-box__actions">
+        <a href="contact.html" class="btn btn--cta btn--sm">Book Now</a>
+        <button class="btn btn--outline btn--sm" id="printPage" aria-label="Print this page">Print / Save</button>
+        <div class="social-share" aria-label="Share this page">
+          <span class="social-share__label">Share:</span>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://catsluvus.com/" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook" class="social-share__link">FB</a>
+          <a href="https://twitter.com/intent/tweet?url=https://catsluvus.com/&text=Check out Cats Luv Us Boarding Hotel" target="_blank" rel="noopener noreferrer" aria-label="Share on X" class="social-share__link">X</a>
+          <a href="mailto:?subject=Cats Luv Us Boarding Hotel&body=Check out this great cat boarding place: https://catsluvus.com/" aria-label="Share via Email" class="social-share__link">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Table of Contents (Explore This Page) -->
+    <nav class="toc" aria-label="Explore this page" id="toc">
+      <h3 class="toc__title">Explore This Page</h3>
+      <ol class="toc__list">
+        <li><a href="#services-section" class="toc__link">Our Services</a></li>
+        <li><a href="#how-it-works" class="toc__link">How It Works</a></li>
+        <li><a href="#reviews-section" class="toc__link">Reviews &amp; Reputation</a></li>
+        <li><a href="#care-promise" class="toc__link">5-Point Care Promise</a></li>
+        <li><a href="#comparison" class="toc__link">Us vs. Typical Boarding</a></li>
+        <li><a href="#faq-section" class="toc__link">FAQ</a></li>
+        <li><a href="#myths-section" class="toc__link">Cat Boarding Myths</a></li>
+        <li><a href="#cost-estimator" class="toc__link">Cost Estimator</a></li>
+        <li><a href="#stats-section" class="toc__link">Our Impact</a></li>
+        <li><a href="#timeline-section" class="toc__link">Our Journey</a></li>
+      </ol>
+    </nav>
+
   </div>
 </section>
 
