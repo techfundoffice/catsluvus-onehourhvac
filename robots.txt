@@ -1,0 +1,13 @@
+# https://catsluvus.com/robots.txt
+# Cats Luv Us Boarding Hotel
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://catsluvus.com/sitemap.xml
+
+# Crawl-delay (optional, for polite crawling)
+Crawl-delay: 1
