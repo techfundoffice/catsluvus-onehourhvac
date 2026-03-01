@@ -209,6 +209,28 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .toc__link:hover,.toc__link.active{color:#E91E8C;font-weight:600}
 .toc__link::before{content:counter(toc) ". ";color:#E91E8C;font-weight:700}
 
+/* ---------- Cat Wellness Dashboard ---------- */
+.wellness-dash{background:#111111;padding:.6rem 0;border-bottom:2px solid #E91E8C}
+.wellness-dash__inner{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.wellness-dash__brand{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+.wellness-dash__icon{font-size:1.1rem}
+.wellness-dash__title{font-family:var(--font-body);font-weight:800;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--white)}
+.wellness-dash__metrics{display:flex;align-items:center;gap:1.5rem}
+.wellness-dash__metric{display:flex;flex-direction:column;align-items:center;gap:0;line-height:1.2}
+.wellness-dash__metric-value{font-family:var(--font-display);font-weight:900;font-size:1rem;color:#E91E8C}
+.wellness-dash__metric-label{font-size:.62rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.wellness-dash__login{display:flex;align-items:center;gap:.35rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:.35rem .8rem;border-radius:999px;color:var(--white);transition:all .2s;text-decoration:none;flex-shrink:0}
+.wellness-dash__login:hover{background:#E91E8C;border-color:#E91E8C}
+.wellness-dash__login-icon{width:16px;height:16px}
+.wellness-dash__login-text{font-size:.72rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+@media(max-width:768px){
+.wellness-dash__inner{flex-wrap:wrap;justify-content:center;gap:.5rem}
+.wellness-dash__metrics{gap:.8rem}
+.wellness-dash__metric-value{font-size:.88rem}
+.wellness-dash__metric-label{font-size:.56rem}
+.wellness-dash__title{font-size:.68rem}
+}
+
 /* ---------- Hero (matching One Hour layout) ---------- */
 .hero{position:relative;display:flex;min-height:525px;background:#F2F2F2;overflow:hidden}
 .hero__bg-watermark{position:absolute;top:50%;left:28%;transform:translate(-50%,-50%);width:450px;height:450px;border-radius:50%;border:40px solid rgba(255,255,255,.6);opacity:.5;pointer-events:none}
