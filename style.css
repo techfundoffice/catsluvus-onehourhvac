@@ -494,6 +494,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .certifications-bar__item{font-size:.82rem;color:var(--gray-500);font-weight:600;padding:.3rem .75rem;background:var(--gray-50);border-radius:999px;border:1px solid var(--gray-200)}
 
 /* ---------- Video Section ---------- */
+.video-section{padding-top:var(--sp-lg)}
 .video-section__eyebrow{font-family:var(--font-body);font-weight:700;font-size:.95rem;letter-spacing:2px;text-transform:uppercase;color:#E91E8C;margin-bottom:.3rem;text-align:center}
 .video-section__title{font-family:var(--font-display);font-size:clamp(1.4rem,3vw,2rem);font-weight:900;color:var(--gray-900);text-align:center;margin-bottom:var(--sp-lg)}
 .video-section__embed{width:100%;max-width:800px;margin:0 auto}
