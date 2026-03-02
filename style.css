@@ -327,7 +327,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .reputation-section__score{font-size:1.4rem;font-weight:900;color:var(--white)}
 .reputation-section__count{font-size:.85rem;color:rgba(255,255,255,.7)}
 .reputation-section__cards{background:#E3F2FD;padding:0 0 var(--sp-xl)}
-.rep-cards-track{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-md)}
+.rep-cards-track{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-md)}
 .rep-card{background:var(--white);border-radius:var(--radius-md);padding:var(--sp-md) var(--sp-md) var(--sp-lg);position:relative}
 .rep-card__quote{position:absolute;top:-8px;right:16px;font-size:3rem;font-weight:900;color:#E91E8C;line-height:1;font-family:Georgia,serif}
 .rep-card__author{font-weight:800;font-size:.92rem;color:var(--gray-900);text-transform:uppercase;letter-spacing:.5px;margin-bottom:.3rem}
@@ -1103,4 +1103,126 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 }
 .article-info-section .toc__title {
   font-size: 1rem;
+}
+
+/* ---------- Hero CTA Row ---------- */
+.hero__cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 1.25rem;
+}
+.hero__cta-row .btn--outline {
+  background: transparent;
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+.hero__cta-row .btn--outline:hover {
+  background: var(--white);
+  color: var(--gray-900);
+}
+
+/* ---------- Review Source Badge ---------- */
+.rep-card__source {
+  margin-top: .5rem;
+  padding-top: .5rem;
+  border-top: 1px solid var(--gray-200);
+}
+.rep-card__source small {
+  font-size: .72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--gray-500);
+}
+
+/* ---------- Sticky Mobile CTA Bar ---------- */
+.sticky-mobile-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  background: var(--white);
+  box-shadow: 0 -2px 12px rgba(0,0,0,.15);
+  padding: .6rem .75rem;
+  gap: .5rem;
+}
+.sticky-mobile-cta a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .35rem;
+  padding: .7rem .5rem;
+  border-radius: var(--radius-sm);
+  font-size: .82rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  transition: background .18s ease, color .18s ease;
+}
+.sticky-mobile-cta__call {
+  background: #1E88E5;
+  color: var(--white);
+}
+.sticky-mobile-cta__call:hover {
+  background: #1565C0;
+}
+.sticky-mobile-cta__book {
+  background: #E91E8C;
+  color: var(--white);
+}
+.sticky-mobile-cta__book:hover {
+  background: #C4157A;
+}
+.sticky-mobile-cta__text {
+  background: var(--gray-100);
+  color: var(--gray-800);
+}
+.sticky-mobile-cta__text:hover {
+  background: var(--gray-200);
+}
+
+/* ---------- Article Info Collapsible ---------- */
+.article-info-section details {
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  background: var(--white);
+}
+.article-info-section summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: .95rem;
+  color: var(--gray-700);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.article-info-section summary::-webkit-details-marker { display: none; }
+.article-info-section summary::after {
+  content: '\25BC';
+  font-size: .65rem;
+  transition: transform .2s ease;
+  margin-left: auto;
+}
+.article-info-section details[open] summary::after {
+  transform: rotate(180deg);
+}
+.article-info-section .article-info-content {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+@media(max-width:768px) {
+  .sticky-mobile-cta {
+    display: flex;
+  }
+  body {
+    padding-bottom: 70px;
+  }
 }
