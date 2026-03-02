@@ -103,60 +103,6 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .btn--white:hover{background:var(--gray-50);transform:translateY(-2px);box-shadow:var(--shadow-md)}
 .btn--sm{padding:.6rem 1.4rem;font-size:.85rem}
 
-/* ---------- Site Header (One Hour single-block layout) ---------- */
-.site-header{background:var(--white);position:sticky;top:0;z-index:1000;transition:box-shadow .3s;border-bottom:1px solid var(--gray-200)}
-.site-header.scrolled{box-shadow:var(--shadow-md)}
-
-/* Top line: Logo ... Find Us ... Phone */
-.header-top{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0 .35rem}
-.header-top__center{display:flex;align-items:center;gap:.35rem}
-.header-top__pin{width:20px;height:20px;color:var(--gold)}
-.header-top__find-link{color:#E91E8C;font-size:.9rem;font-weight:600;text-decoration:underline;text-underline-offset:2px;transition:color .2s}
-.header-top__find-link:hover{color:var(--orange-600)}
-.header-top__right{display:flex;align-items:center;gap:.6rem}
-.header-top__phone-badge{position:relative;width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#E91E8C,#C4157A);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.15)}
-.header-top__phone-badge svg{width:20px;height:20px;color:var(--white)}
-.header-top__phone-badge span{position:absolute;bottom:0;right:-2px;font-size:.45rem;font-weight:900;color:var(--white);background:var(--gray-900);padding:1px 3px;border-radius:2px;line-height:1;letter-spacing:.3px}
-.header-top__phone{font-size:1.75rem;font-weight:900;color:var(--gray-900);letter-spacing:.5px;font-family:var(--font-body)}
-.header-top__phone:hover{color:var(--orange-600)}
-
-/* Header Search Button */
-.header-search-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--gray-700);transition:all .2s;border:1px solid var(--gray-200)}
-.header-search-btn:hover{color:#E91E8C;border-color:#E91E8C}
-
-/* Bottom line: Nav right-aligned */
-.header-bottom{display:flex;align-items:center;justify-content:flex-end;padding:0 0 .5rem}
-
-/* Logo */
-.logo{font-family:var(--font-display);font-size:1.8rem;font-weight:900;color:var(--gray-900);line-height:1.1}
-.logo span{color:var(--orange-600)}
-.logo small{display:block;font-family:var(--font-body);font-size:.55rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray-500);margin-top:-2px}
-
-/* Nav */
-.nav{display:flex;align-items:center;gap:0}
-.nav__link{position:relative;padding:.5rem 1.1rem;font-size:.95rem;font-weight:600;color:var(--gray-900);transition:color .2s}
-.nav__link:hover,.nav__link.active{color:var(--orange-600)}
-.nav__link::after{content:'';position:absolute;bottom:0;left:1rem;right:1rem;height:2px;background:var(--orange-600);transform:scaleX(0);transition:transform .3s var(--ease)}
-.nav__link:hover::after,.nav__link.active::after{transform:scaleX(1)}
-
-/* Dropdown */
-.nav__item{position:relative}
-.nav__dropdown{position:absolute;top:100%;left:0;min-width:240px;background:var(--white);border-radius:var(--radius-md);box-shadow:var(--shadow-lg);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s var(--ease);z-index:100}
-.nav__item:hover .nav__dropdown{opacity:1;visibility:visible;transform:translateY(0)}
-.nav__dropdown a{display:block;padding:.55rem 1.2rem;font-size:.88rem;font-weight:500;color:var(--gray-700);transition:all .2s}
-.nav__dropdown a:hover{background:var(--orange-100);color:var(--orange-600);padding-left:1.5rem}
-
-/* Book Now Button — Red like One Hour */
-.btn--book-now{background:#E91E8C;color:var(--white);font-weight:800;padding:.65rem 1.5rem;font-size:.88rem;letter-spacing:.5px;text-transform:uppercase;border-radius:var(--radius-sm);margin-left:.5rem;transition:all .2s;display:inline-flex;align-items:center}
-.btn--book-now:hover{background:#C4157A;transform:translateY(-1px);box-shadow:var(--shadow-sm)}
-
-/* Mobile menu toggle */
-.menu-toggle{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer}
-.menu-toggle span{width:24px;height:2px;background:var(--gray-900);border-radius:2px;transition:all .3s}
-.menu-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
-.menu-toggle.active span:nth-child(2){opacity:0}
-.menu-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
-
 /* ---------- Search Modal ---------- */
 .search-modal{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);z-index:2000;display:flex;align-items:flex-start;justify-content:center;padding-top:120px;opacity:0;visibility:hidden;transition:all .3s var(--ease)}
 .search-modal.active{opacity:1;visibility:visible}
@@ -230,6 +176,71 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
 .wellness-dash__metric-label{font-size:.56rem}
 .wellness-dash__title{font-size:.68rem}
 }
+
+/* ---------- Site Header — 4-Layer Structure ---------- */
+.site-header{position:sticky;top:0;z-index:1000;transition:box-shadow .3s}
+.site-header.scrolled{box-shadow:var(--shadow-md)}
+
+/* Layer 1 — Announcement Bar */
+.announcement-bar{background:#1a237e;text-align:center;padding:6px var(--sp-md);width:100%}
+.announcement-bar__link{color:var(--white);font-size:.78rem;font-weight:600;letter-spacing:.3px;text-decoration:none;transition:opacity .2s}
+.announcement-bar__link:hover{opacity:.85;text-decoration:underline;text-underline-offset:2px}
+
+/* Layer 2 — Contact / Info Bar */
+.contact-bar{background:#f0f4f8;border-bottom:1px solid #dce3ea;width:100%}
+.contact-bar__inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.45rem var(--sp-md)}
+.contact-bar__left{display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap}
+.contact-bar__item{display:inline-flex;align-items:center;gap:.35rem;font-size:.78rem;font-weight:500;color:var(--gray-700);text-decoration:none;transition:color .2s;white-space:nowrap}
+.contact-bar__item svg{flex-shrink:0;color:#1a237e}
+.contact-bar__item:hover{color:#1a237e}
+.contact-bar__social{display:flex;align-items:center;gap:.3rem;flex-shrink:0}
+.contact-bar__social-link{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;color:var(--gray-600);transition:all .2s;text-decoration:none}
+.contact-bar__social-link:hover{color:#E91E8C;background:rgba(233,30,140,.08)}
+
+/* Layer 3 — Main Header */
+.header-main{background:var(--white);border-bottom:1px solid var(--gray-200)}
+.header-main__inner{display:flex;align-items:center;gap:1.25rem;padding:.75rem var(--sp-md)}
+
+/* Logo */
+.header-main__logo{display:flex;flex-direction:column;text-decoration:none;position:relative;flex-shrink:0;padding-right:.5rem}
+.logo-text{font-family:var(--font-display);font-size:1.75rem;font-weight:900;color:var(--gray-900);line-height:1.1}
+.logo-text em{color:#E91E8C;font-style:normal}
+.logo-sub{font-family:var(--font-body);font-size:.52rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray-500);margin-top:-2px;display:block}
+.free-night-badge{display:inline-block;background:#E91E8C;color:var(--white);font-size:.56rem;font-weight:800;letter-spacing:.8px;text-transform:uppercase;padding:2px 7px;border-radius:999px;margin-top:4px;white-space:nowrap}
+
+/* Booking Buttons */
+.header-main__actions{display:flex;align-items:center;gap:.6rem;flex:1;justify-content:center;flex-wrap:wrap}
+.btn-book{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1.1rem;border-radius:var(--radius-sm);font-weight:700;font-size:.82rem;letter-spacing:.4px;text-transform:uppercase;text-decoration:none;transition:all .25s var(--ease);white-space:nowrap}
+.btn-book--boarding{background:#E91E8C;color:var(--white)}
+.btn-book--boarding:hover{background:#C4157A;transform:translateY(-1px);box-shadow:var(--shadow-sm)}
+.btn-book--grooming{background:#1565C0;color:var(--white)}
+.btn-book--grooming:hover{background:#0D47A1;transform:translateY(-1px);box-shadow:var(--shadow-sm)}
+
+/* Utility Buttons */
+.header-main__utils{display:flex;align-items:center;gap:.5rem;flex-shrink:0}
+.btn-vet{display:inline-flex;align-items:center;gap:.35rem;padding:.5rem 1rem;border-radius:var(--radius-sm);border:2px solid #1565C0;color:#1565C0;font-size:.78rem;font-weight:700;letter-spacing:.4px;text-transform:uppercase;text-decoration:none;transition:all .2s;white-space:nowrap}
+.btn-vet:hover{background:#1565C0;color:var(--white)}
+.btn-signin{display:inline-flex;align-items:center;gap:.3rem;padding:.45rem .8rem;border-radius:var(--radius-sm);border:1px solid var(--gray-300);color:var(--gray-700);font-size:.78rem;font-weight:600;text-decoration:none;transition:all .2s;white-space:nowrap}
+.btn-signin:hover{border-color:#E91E8C;color:#E91E8C}
+
+/* Header Search Button (reused from old header) */
+.header-search-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--gray-700);transition:all .2s;border:1px solid var(--gray-200)}
+.header-search-btn:hover{color:#E91E8C;border-color:#E91E8C}
+
+/* Mobile menu toggle */
+.menu-toggle{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer;flex-shrink:0}
+.menu-toggle span{width:24px;height:2px;background:var(--gray-900);border-radius:2px;transition:all .3s}
+.menu-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.menu-toggle.active span:nth-child(2){opacity:0}
+.menu-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+
+/* Layer 4 — Navigation Bar */
+.nav-bar{background:#1a237e;width:100%}
+.nav-bar__inner{display:flex;align-items:center;flex-wrap:wrap;gap:0;padding:0 var(--sp-md)}
+.nav-bar__link{display:inline-block;padding:.65rem .9rem;font-size:.78rem;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:rgba(255,255,255,.85);text-decoration:none;transition:all .2s;position:relative;white-space:nowrap}
+.nav-bar__link::after{content:'';position:absolute;bottom:0;left:.9rem;right:.9rem;height:2px;background:#E91E8C;transform:scaleX(0);transition:transform .25s var(--ease)}
+.nav-bar__link:hover,.nav-bar__link.active{color:var(--white)}
+.nav-bar__link:hover::after,.nav-bar__link.active::after{transform:scaleX(1)}
 
 /* ---------- Hero (matching One Hour layout) ---------- */
 .hero{position:relative;display:flex;min-height:525px;background:#F2F2F2;overflow:hidden}
@@ -854,6 +865,14 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   align-items:center;
   gap:.75rem;
 }
+/* Logo utility — used in prefooter and footer */
+.logo{font-family:var(--font-display);font-size:1.8rem;font-weight:900;color:var(--gray-900);line-height:1.1}
+.logo span{color:#E91E8C}
+.logo small{display:block;font-family:var(--font-body);font-size:.55rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--gray-500);margin-top:-2px}
+
+/* Phone badge — utility used in prefooter */
+.header-top__phone-badge{position:relative;width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#E91E8C,#C4157A);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.header-top__phone-badge svg{width:20px;height:20px;color:var(--white)}
 .prefooter__social{
   display:flex;
   gap:.75rem;
@@ -984,8 +1003,7 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .rep-cards-track{grid-template-columns:repeat(2,1fr)}
   .value-prop__grid{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
-  .header-top__phone{font-size:1.3rem}
-  .prefooter__inner{flex-direction:column;text-align:center}
+  .community-logos{gap:1.5rem}
   .prefooter__left{display:none}
   .prefooter__right{flex-direction:row;align-items:center;gap:1.5rem}
   .community-logos{gap:1.5rem}
@@ -998,24 +1016,28 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-display);color:var(--gray-900);line-hei
   .comparison-table{font-size:.85rem}
 }
 @media(max-width:768px){
+  /* New header mobile */
+  .announcement-bar{font-size:.7rem;padding:5px .75rem}
+  .contact-bar{display:none}/* hide full contact bar on mobile */
+  .header-main__inner{flex-wrap:wrap;gap:.75rem;padding:.6rem var(--sp-sm)}
+  .header-main__actions{gap:.4rem;justify-content:flex-start;flex:0 0 100%;order:3}
+  .header-main__logo{flex:1}
+  .header-main__utils{flex-shrink:0}
+  .btn-vet{display:none}/* hide vet button on mobile to save space */
+  .btn-signin{display:none}
   .menu-toggle{display:flex}
-  .header-bottom{justify-content:flex-end}
-  .nav{position:fixed;top:0;left:0;right:0;bottom:0;background:var(--white);flex-direction:column;padding:5rem var(--sp-md) var(--sp-md);box-shadow:var(--shadow-lg);transform:translateX(100%);transition:transform .35s var(--ease);z-index:999}
-  .nav.open{transform:translateX(0)}
-  .nav__link{padding:.75rem 0;width:100%;border-bottom:1px solid var(--gray-100);font-size:1.1rem}
-  .nav__item{width:100%}
-  .nav__dropdown{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;padding:0 0 0 1rem;display:none}
-  .nav__item.open .nav__dropdown{display:block}
-  .btn--book-now{display:none}
-  .header-top__center{display:none}
+  /* Nav bar — mobile drawer */
+  .nav-bar{position:fixed;top:0;left:0;right:0;bottom:0;background:#1a237e;flex-direction:column;padding:5rem var(--sp-md) var(--sp-md);overflow-y:auto;transform:translateX(100%);transition:transform .35s var(--ease);z-index:999}
+  .nav-bar.open{transform:translateX(0)}
+  .nav-bar__inner{flex-direction:column;align-items:flex-start;padding:0}
+  .nav-bar__link{padding:.85rem 0;width:100%;border-bottom:1px solid rgba(255,255,255,.1);font-size:1rem}
+  .nav-bar__link::after{display:none}
+  /* keep rest of responsive rules */
   .zip-bar .container{flex-direction:column;text-align:center}
   .zip-bar__form{flex-direction:column;width:100%}
   .zip-bar__input{width:100%}
   .footer__grid{grid-template-columns:1fr}
   .footer__bottom{flex-direction:column;text-align:center}
-  .header-top__phone{font-size:1.1rem}
-  .header-top__phone-badge{width:32px;height:32px}
-  .header-top__phone-badge svg{width:14px;height:14px}
   .pricing-grid{grid-template-columns:1fr}
   .services-header{flex-direction:column;align-items:flex-start}
   .services-icon-row{grid-template-columns:repeat(2,1fr)}

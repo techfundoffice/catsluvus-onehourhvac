@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // ---- Mobile Menu ----
   const toggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('.nav');
+  const nav = document.querySelector('.nav-bar');
   if (toggle && nav) {
     toggle.addEventListener('click', () => {
       toggle.classList.toggle('active');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ---- Mobile dropdown toggles ----
+  // ---- Mobile dropdown toggles (no longer needed for flat nav, kept for safety) ----
   document.querySelectorAll('.nav__item').forEach(item => {
     const link = item.querySelector('.nav__link');
     const dropdown = item.querySelector('.nav__dropdown');
