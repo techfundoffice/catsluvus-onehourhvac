@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "title": "Expert Cat Boarding, Grooming & Daycare in Laguna Niguel | Cats Luv Us Boarding Hotel",
+    "description": "Cats Luv Us Boarding Hotel — Orange County's trusted cat-exclusive boarding, grooming & daycare for over 30 years. 4.5★ Google rated. Book your cat's stay today! (949) 582-1732",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "author": "The Cats Luv Us Team",
+    "canonical": "https://catsluvus.com/",
+    "openGraph": {
+      "type": "website",
+      "title": "Expert Cat Boarding, Grooming & Daycare in Laguna Niguel | Cats Luv Us Boarding Hotel",
+      "description": "Orange County's trusted cat-exclusive boarding, grooming & daycare for over 30 years. 4.5★ Google rated, 120+ reviews. Family-owned. Book today!",
+      "url": "https://catsluvus.com/",
+      "siteName": "Cats Luv Us Boarding Hotel",
+      "locale": "en_US",
+      "image": "https://catsluvus.com/images/og-image.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 630
+    },
+    "twitterCard": {
+      "card": "summary_large_image",
+      "title": "Expert Cat Boarding, Grooming & Daycare | Cats Luv Us Boarding Hotel",
+      "description": "Orange County's trusted cat-exclusive boarding, grooming & daycare for over 30 years. 4.5★ Google rated. Book today!",
+      "image": "https://catsluvus.com/images/og-image.jpg"
+    }
+  },
+  "business": {
+    "name": "Cats Luv Us Boarding Hotel",
+    "description": "Cat-exclusive boarding, grooming, and daycare facility serving Orange County since 1993.",
+    "url": "https://catsluvus.com",
+    "telephone": "+19495821732",
+    "smsHelpLine": "+17146461439",
+    "email": "catsluvus@gmail.com",
+    "foundingDate": "1993",
+    "priceRange": "$$",
+    "image": "https://catsluvus.com/images/og-image.jpg",
+    "logo": "https://catsluvus.com/images/logo.png",
+    "address": {
+      "streetAddress": "27601 Forbes Rd #25",
+      "addressLocality": "Laguna Niguel",
+      "addressRegion": "CA",
+      "postalCode": "92677",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "latitude": 33.5225,
+      "longitude": -117.7076
+    },
+    "hours": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    },
+    "aggregateRating": {
+      "ratingValue": "4.5",
+      "reviewCount": "120",
+      "bestRating": "5"
+    },
+    "socialProfiles": [
+      "https://www.facebook.com/catsluvus",
+      "https://www.instagram.com/catsluvus",
+      "https://x.com/catsluvus",
+      "https://www.youtube.com/@catsluvus",
+      "https://www.tiktok.com/@catsluvus",
+      "https://www.linkedin.com/company/catsluvus",
+      "https://www.pinterest.com/catsluvus",
+      "https://www.yelp.com/biz/cats-luv-us-boarding-hotel-laguna-niguel",
+      "https://www.google.com/maps/place/Cats+Luv+Us+Boarding+Hotel"
+    ],
+    "certifications": [
+      "County of Orange Licensed",
+      "Bonded & Insured",
+      "Pet First Aid & CPR Certified",
+      "Pet Care Services Association Member"
+    ]
+  },
+  "navigation": {
+    "primary": [
+      { "label": "Home", "href": "index.html", "active": true },
+      { "label": "Services & Rates", "href": "services.html" },
+      { "label": "Cat Boarding", "href": "services-boarding.html" },
+      { "label": "Cat Grooming", "href": "services-grooming.html" },
+      { "label": "Pricing", "href": "services.html" },
+      { "label": "About Us", "href": "about-us.html" },
+      { "label": "Contact", "href": "contact.html" },
+      { "label": "FAQ", "href": "#faq-section" },
+      { "label": "Reviews", "href": "reviews.html" },
+      { "label": "Blog", "href": "#" },
+      { "label": "Shop", "href": "#" }
+    ],
+    "footer": [
+      { "label": "Services", "href": "services.html" },
+      { "label": "About Us", "href": "about-us.html" },
+      { "label": "Our Guarantees", "href": "about-us-our-guarantees.html" },
+      { "label": "Reviews", "href": "reviews.html" },
+      { "label": "Contact", "href": "contact.html" }
+    ],
+    "legal": [
+      { "label": "Accessibility", "href": "accessibility.html" },
+      { "label": "Sitemap", "href": "sitemap.xml" },
+      { "label": "Privacy Policy", "href": "privacy-policy.html" }
+    ]
+  },
+  "bookingLinks": {
+    "boarding": "https://hotels.cloudbeds.com/en/reservation/OeDJMr",
+    "grooming": "https://calendly.com/catgrooming",
+    "newsletter": "https://link.catsluvus.com/widget/form/newsletter"
+  },
+  "announcementBar": {
+    "text": "Subscribe To Cats Luv Us Weekly Newsletter For A Free Night!",
+    "href": "https://link.catsluvus.com/widget/form/newsletter"
+  },
+  "hero": {
+    "eyebrow": "YOUR CAT'S WELLNESS IS",
+    "title": "JUST A CLICK AWAY",
+    "tagline": "The Cat Boarding & Grooming Company You Can Trust!",
+    "rating": {
+      "score": "4.5",
+      "count": "120+ reviews"
+    },
+    "cta": [
+      { "label": "Book Your Cat's Stay", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr", "style": "primary" },
+      { "label": "Call (949) 582-1732", "href": "tel:+19495821732", "style": "outline" }
+    ],
+    "image": {
+      "alt": "Cats Luv Us Boarding Hotel",
+      "caption": "Laguna Niguel, CA • Since 1993"
+    }
+  },
+  "wellnessDashboard": {
+    "metrics": [
+      { "value": "98%", "label": "Health Score" },
+      { "value": "500+", "label": "Cats Tracked" },
+      { "value": "30+", "label": "Years Care" }
+    ]
+  },
+  "videoSection": {
+    "eyebrow": "SEE OUR FACILITY",
+    "title": "Text Us To Book A FREE Tour Today!",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=ACLap0SSyBU",
+      "thumbnail": "https://img.youtube.com/vi/ACLap0SSyBU/maxresdefault.jpg",
+      "alt": "Take A Free Tour of Cats Luv Us Boarding Hotel"
+    },
+    "description": "Cats Luv Us Boarding Hotel has been providing Long Term Cat Boarding and Cat Grooming in Orange County for over 30 years. Come see our facility in person!",
+    "cta": [
+      { "label": "Text Us To Book A Tour", "href": "sms:+17146461439", "style": "primary" },
+      { "label": "Call (949) 582-1732", "href": "tel:+19495821732", "style": "outline" }
+    ]
+  },
+  "freeNightPromo": {
+    "badge": "LIMITED TIME OFFER",
+    "title": "Claim Your Free Night!",
+    "description": "For New Customers and Refer-A-Friend's — if you're a new customer or referring a friend, claim your FREE night. Please try to book 3 nights minimum.",
+    "urgency": "Hurry — limited availability for Spring & Summer 2026. Book early to guarantee your dates!",
+    "cta": { "label": "Claim Free Night & Book Now", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr" },
+    "note": "Book direct with us for the best prices!"
+  },
+  "services": {
+    "eyebrow": "CAT CARE SERVICES",
+    "title": "Services by Cats Luv Us",
+    "items": [
+      { "label": "Cat Boarding", "href": "services-boarding.html", "emoji": "🏠" },
+      { "label": "Cat Grooming", "href": "services-grooming.html", "emoji": "✂️" },
+      { "label": "Cat Daycare", "href": "services-daycare.html", "emoji": "☀️" },
+      { "label": "Long-Term Boarding", "href": "services-boarding-long-term.html", "emoji": "📅" },
+      { "label": "Luxury Suites", "href": "services-boarding-luxury.html", "emoji": "⭐" },
+      { "label": "Medication Admin", "href": "services-boarding.html", "emoji": "💊" }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "GETTING STARTED",
+    "title": "How It Works — 3 Easy Steps",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Book the Stay",
+        "text": "Contact us for more details about the amenities and book your dates in advance. Call (949) 582-1732 or book online. Book direct with us for the best prices!",
+        "links": [
+          { "label": "(949) 582-1732", "href": "tel:9495821732" },
+          { "label": "book online", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr" }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Arrival",
+        "text": "Upon arrival, fill out the necessary paperwork and provide us with information about your cat, including their feeding routine. We ask that you bring your own food so we can follow your cat's regular diet."
+      },
+      {
+        "number": 3,
+        "title": "Check-In",
+        "text": "A staff member will then show you the room and provide instructions on how to care for your cat. Enjoy your trip knowing your cat is in expert hands — we'll provide updates during their stay!"
+      }
+    ],
+    "cta": { "label": "Book Your Cat's Stay", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr" }
+  },
+  "reviews": {
+    "title": "WE HAVE A REPUTATION",
+    "subtitle": "FOR BEING CARING, FRIENDLY AND KNOWLEDGEABLE",
+    "rating": { "score": "4.5", "count": "120+" },
+    "items": [
+      {
+        "author": "Deborah R.",
+        "rating": 5,
+        "date": "June 6, 2022",
+        "text": "Wow, you are amazing! Thank you for taking amazing care of Smokey. What a great experience. Loved the updates on Smokey while we were on vacation. See you again!",
+        "source": "Google"
+      },
+      {
+        "author": "Susan G.",
+        "rating": 5,
+        "date": "June 2, 2022",
+        "text": "The best. Absolute best. I found Cats Luv Us and they were incredible. My cat came home looking beautiful and stress-free.",
+        "source": "Google"
+      },
+      {
+        "author": "Lauren L.",
+        "rating": 5,
+        "date": "January 29, 2025",
+        "text": "Cats Luv Us was able to accept my 2 cats on short notice and keep them for almost 3 weeks! I got frequent photo updates. They came home happy and healthy. You can tell everyone here is passionate about caring for cats.",
+        "source": "Yelp"
+      },
+      {
+        "author": "Stacy L.",
+        "rating": 5,
+        "date": "April 14, 2024",
+        "text": "First time boarding instead of getting a house sitter, and it was wonderful. The space is clean and airy. Erin sent us daily updates with lovely messages. We highly recommend them!",
+        "source": "Yelp"
+      },
+      {
+        "author": "Benjamin H.",
+        "rating": 5,
+        "date": "September 17, 2020",
+        "text": "My trip unexpectedly stretched to two months! They were amazing — providing regular updates, very flexible, and willing to give extra space and attention. I plan to use them exclusively in the future.",
+        "source": "Yelp"
+      },
+      {
+        "author": "Amanda J.",
+        "rating": 5,
+        "date": "January 23, 2025",
+        "text": "This place is amazing!! We used them twice for boarding and grooming and they exceed our expectations each time. They truly do care and I know my fur babies are getting the best treatment.",
+        "source": "Yelp"
+      }
+    ]
+  },
+  "valueProp": {
+    "eyebrow": "CARING, RELIABLE CAT CARE",
+    "title": "WHEN YOU NEED IT MOST!",
+    "body": [
+      "Cats Luv Us Boarding Hotel provides our clients with the ultimate service: peace of mind. Because we're a local, cat-exclusive facility backed by over 30 years of experience, we can provide a level of care and reliability other pet businesses can't match. No hidden fees, no one-size-fits-all approach; just dedicated, expert cat care at a fair price.",
+      "OUR DIFFERENCE: It is the Cats Luv Us difference that keeps our cat parents happy and coming back — and it's why we've become the trusted name in cat boarding across Orange County. We pride ourselves in our cat-exclusive environment, highly trained specialists, transparent pricing, and our genuine love for every cat in our care."
+    ],
+    "cta": { "label": "Book Now", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr" }
+  },
+  "reasonsToBoard": {
+    "eyebrow": "WHY BOARD YOUR CAT?",
+    "title": "Reasons Orange County Cat Owners Choose Cats Luv Us",
+    "intro": "There are many situations where professional cat boarding is the safest, most caring option for your cat:",
+    "reasons": [
+      { "title": "Leaving Town", "text": "Whether for work or vacation, know your cat is safe and loved while you travel." },
+      { "title": "Visiting Orange County with Your Cat", "text": "Staying local but need a trusted place for your cat? We welcome visiting cats too." },
+      { "title": "Nail Clipping & Grooming", "text": "Book a grooming or nail-clip appointment without a full boarding stay." },
+      { "title": "Home Construction or Termite Treatment", "text": "Keep your cat safe and stress-free while work is done at your home." },
+      { "title": "Privacy & Valuables", "text": "Hosting guests or workers at home? Board your cat to keep everyone comfortable and your valuables safe." },
+      { "title": "Medications like Insulin", "text": "Our trained staff can administer insulin and other medications on schedule, so your cat never misses a dose." },
+      { "title": "Naughty or Hard-to-Handle Cats", "text": "We specialize in cats with big personalities. No cat is too much for our experienced team." },
+      { "title": "Stop By for a Personal Tour!", "text": "Curious? We invite you to visit our facility in person. Come see the suites, meet the staff, and ask any questions." }
+    ],
+    "cta": { "label": "Book Your Cat's Stay", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr" }
+  },
+  "guarantees": {
+    "title": "Here for You When You Need Us Most!",
+    "items": [
+      {
+        "title": "'Round the Clock Availability",
+        "description": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help."
+      },
+      {
+        "title": "100% Purrfect or Your Money Back Guarantee",
+        "description": "We guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, you get your money back—no questions asked."
+      },
+      {
+        "title": "Straightforward Pricing",
+        "description": "Before we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises."
+      },
+      {
+        "title": "Always On Time—Guaranteed!",
+        "description": "We understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free."
+      }
+    ]
+  },
+  "carePromise": {
+    "eyebrow": "OUR PROPRIETARY APPROACH",
+    "title": "The Cats Luv Us 5-Point Care Promise™",
+    "intro": "Every cat that stays with us is cared for using our exclusive 5-Point Care Promise — a proprietary framework developed over 30+ years of hands-on feline care experience. No other facility in Orange County follows this comprehensive approach.",
+    "points": [
+      {
+        "number": 1,
+        "title": "Cat-Exclusive Environment",
+        "text": "Zero dogs, zero stress. Research from the Journal of Feline Medicine and Surgery shows cats in cat-only facilities exhibit 60% less stress behavior. Our entire facility is designed around feline needs."
+      },
+      {
+        "number": 2,
+        "title": "Individual Care Plans",
+        "text": "No cookie-cutter approach. Every cat gets a personalized care plan documenting their dietary needs, medication schedule, play preferences, and temperament — updated each visit."
+      },
+      {
+        "number": 3,
+        "title": "Certified Care Specialists",
+        "text": "Our team holds certifications in Pet First Aid & CPR and completes 40+ hours of annual continuing education in feline behavior, nutrition, and health monitoring."
+      },
+      {
+        "number": 4,
+        "title": "Daily Health Monitoring",
+        "text": "Every cat receives twice-daily wellness checks monitoring eating, drinking, litter box habits, energy levels, and overall demeanor. Any changes are flagged immediately and communicated to you."
+      },
+      {
+        "number": 5,
+        "title": "Transparent Communication",
+        "text": "You'll receive daily photo updates and a detailed care report at pick-up. Plus, our direct phone line means you can check in anytime — because we know how much you worry."
+      }
+    ]
+  },
+  "comparisonTable": {
+    "eyebrow": "WHY CAT PARENTS CHOOSE US",
+    "title": "Cats Luv Us vs. Typical Pet Boarding",
+    "intro": "See why Orange County families trust Cats Luv Us for their cat's care.",
+    "rows": [
+      {
+        "feature": "Cat-Exclusive Facility",
+        "us": "Yes — zero dogs on premises",
+        "them": "Mixed with dogs & other animals"
+      },
+      {
+        "feature": "Years of Experience",
+        "us": "30+ years (est. 1993)",
+        "them": "Varies widely"
+      },
+      {
+        "feature": "Individual Care Plans",
+        "us": "Personalized for every cat",
+        "them": "One-size-fits-all"
+      },
+      {
+        "feature": "Medication Administration",
+        "us": "Included at no extra charge",
+        "them": "Extra fee or unavailable"
+      },
+      {
+        "feature": "Daily Photo Updates",
+        "us": "Included with every stay",
+        "them": "Rarely offered"
+      },
+      {
+        "feature": "Google Rating",
+        "us": "4.5 stars (120+ reviews)",
+        "them": "3.5–4.2 average"
+      },
+      {
+        "feature": "Satisfaction Guarantee",
+        "us": "100% Purrfect or Your Money Back",
+        "them": "Not typically offered"
+      },
+      {
+        "feature": "Transparent Pricing",
+        "us": "No hidden fees",
+        "them": "Extra fees common"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "GOT QUESTIONS?",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What makes Cats Luv Us different from other pet boarding facilities?",
+        "answer": "Cats Luv Us is a cat-exclusive facility — no dogs, no stress. With 30+ years of experience since 1993 and a 4.5-star Google rating from 120+ reviews, we provide specialized feline care that mixed-pet facilities simply can't match. Our team is trained exclusively in cat behavior and care."
+      },
+      {
+        "question": "How much does cat boarding cost at Cats Luv Us?",
+        "answer": "Contact us for current rates — call (949) 582-1732 or book directly online for the best prices. New customers, ask about our free night promo!"
+      },
+      {
+        "question": "Can you administer medication to my cat during boarding?",
+        "answer": "Yes, our trained staff can administer oral medications, insulin injections, and topical treatments at no extra charge for standard medications. We follow your vet's instructions precisely and maintain a detailed medication log for your peace of mind."
+      },
+      {
+        "question": "What should I bring when dropping off my cat for boarding?",
+        "answer": "Please bring your cat's current vaccination records (FRCP within the last 3 years), any medications with vet instructions, and your cat's own food — we ask that you bring their regular food so we can follow their feeding routine. A favorite toy or blanket for comfort is also welcome. We provide litter, bowls, and bedding."
+      },
+      {
+        "question": "Do you offer grooming services for cats?",
+        "answer": "Yes! We offer cat grooming services including baths, brushing, and more. Book your grooming appointment at calendly.com/catgrooming. Our groomers specialize exclusively in cats and understand feline-specific techniques for stress-free grooming. Grooming can be added to any boarding stay."
+      },
+      {
+        "question": "Is Cats Luv Us licensed and insured?",
+        "answer": "Absolutely. Cats Luv Us is fully licensed by the County of Orange, bonded, and insured. We hold certifications in pet first aid and CPR, and we are a proud member of the Professional Cat Groomers Association of America and the Pet Care Services Association."
+      },
+      {
+        "question": "How do I book a stay for my cat?",
+        "answer": "Booking is easy! Call us at (949) 582-1732, email catsluvus@gmail.com, or book directly online for the best prices. We recommend booking at least 2 weeks in advance for holidays and peak summer months."
+      },
+      {
+        "question": "What are your hours and where are you located?",
+        "answer": "We are located at 27601 Forbes Rd #25, Laguna Niguel, CA 92677 — conveniently on Forbes Rd & Crown Valley, across from Costco, easily accessible from all of South Orange County, including Dana Point, San Juan Capistrano, Mission Viejo, and Aliso Viejo. Drop-off and pick-up hours are 7:00 AM to 7:00 PM, 7 days a week. Our staff is on-site 24/7 caring for your cats."
+      }
+    ]
+  },
+  "myths": {
+    "eyebrow": "MYTH VS. REALITY",
+    "title": "5 Myths About Cat Boarding — Busted",
+    "intro": "As cat care professionals with 30+ years of experience, we hear these misconceptions all the time. Here's the truth.",
+    "items": [
+      {
+        "myth": "Cats are fine being left alone with a food bowl for a week.",
+        "fact": "Cats need daily monitoring, fresh water, and clean litter. Cats left alone risk dehydration, urinary blockages, and severe anxiety. The ASPCA recommends professional care for any absence over 24 hours."
+      },
+      {
+        "myth": "All pet boarding facilities are the same.",
+        "fact": "Cat-exclusive facilities reduce feline stress by up to 60% compared to mixed-animal environments. The sounds and smells of dogs create chronic cortisol elevation in boarded cats, leading to appetite loss and illness."
+      },
+      {
+        "myth": "My cat will be traumatized by boarding.",
+        "fact": "In our 30+ years, the vast majority of first-time boarders return for repeat stays. Cats thrive in consistent, calm environments with routine care. Many of our regulars start purring the moment they arrive."
+      },
+      {
+        "myth": "Cat boarding is too expensive.",
+        "fact": "Our rates are competitive with — and often less than — most pet sitters ($40–75/visit). Plus, you get 24/7 supervision, daily health monitoring, medication admin, and liability insurance — benefits no pet sitter can match."
+      },
+      {
+        "myth": "Senior cats can't handle boarding.",
+        "fact": "We specialize in senior cat care. Our staff is trained to administer medications, monitor chronic conditions, and provide the gentle handling older cats need. Over 30% of our boarders are seniors, and their parents trust us completely."
+      }
+    ]
+  },
+  "quoteSection": {
+    "eyebrow": "PLAN YOUR VISIT",
+    "title": "Request a Rate Quote",
+    "intro": "Pricing varies by suite type, length of stay, and services. Contact us for current rates — we always offer the best prices when you book directly with us!",
+    "highlight": "New Customers: Claim your free night when you book 3+ nights!",
+    "cta": { "label": "Book Now & Get Best Prices", "href": "https://hotels.cloudbeds.com/en/reservation/OeDJMr" },
+    "phone": { "label": "(949) 582-1732", "href": "tel:9495821732" },
+    "grooming": { "label": "calendly.com/catgrooming", "href": "https://calendly.com/catgrooming" }
+  },
+  "peopleAlsoAsk": {
+    "title": "People Also Ask About Cat Boarding",
+    "items": [
+      {
+        "question": "How far in advance should I book cat boarding for the holidays?",
+        "answer": "We recommend booking at least 4–6 weeks in advance for Thanksgiving, Christmas, New Year's, and the Fourth of July. Summer months (June–August) also fill up fast. For regular weekends, 1–2 weeks notice is usually sufficient."
+      },
+      {
+        "question": "What vaccinations does my cat need for boarding?",
+        "answer": "All cats must be current on their FRCP vaccination (feline rhinotracheitis-calici-panleukopenia) within the last three years. Please bring documentation from your veterinarian at drop-off."
+      },
+      {
+        "question": "Can I visit or tour the facility before booking?",
+        "answer": "Absolutely! We encourage prospective cat parents to schedule a tour. You'll see our suites, meet our staff, and ask any questions. Call (949) 582-1732 to schedule your complimentary tour."
+      },
+      {
+        "question": "What's the difference between your Standard and Luxury suites?",
+        "answer": "Contact us for current pricing — call (949) 582-1732 or book online. We offer private suites with bedding, litter, food bowls, and daily care. Both suite types include our full 5-Point Care Promise."
+      }
+    ]
+  },
+  "stats": {
+    "eyebrow": "BY THE NUMBERS",
+    "title": "Our Impact Since 1993",
+    "intro": "These aren't just numbers — they represent decades of trust, thousands of happy cats, and a community of families who count on us. Data from Cats Luv Us internal records, compiled February 2026.",
+    "items": [
+      { "value": "5,000+", "label": "Cats Cared For" },
+      { "value": "30+", "label": "Years in Business" },
+      { "value": "85%", "label": "Return Rate" },
+      { "value": "4.5", "label": "Google Star Rating" }
+    ],
+    "quote": {
+      "text": "In over three decades of dedicated cat care, we've learned that every cat is unique. Our facility, our training, and our passion all exist for one reason: to give your cat the individualized attention they deserve while you're away.",
+      "attribution": "The Cats Luv Us Team, Est. 1993"
+    }
+  },
+  "newsletter": {
+    "eyebrow": "STAY CONNECTED",
+    "title": "Get Cat Care Tips & Exclusive Offers",
+    "description": "Subscribe to our weekly newsletter for cat care tips, special promotions, and behind-the-scenes photos. New subscribers get a free night with their first booking!",
+    "cta": { "label": "Subscribe & Get Free Night", "href": "https://link.catsluvus.com/widget/form/newsletter" },
+    "note": "No spam — just cat tips, promos, and cute photos. Unsubscribe anytime."
+  },
+  "community": {
+    "eyebrow": "CARING FOR YOUR ENTIRE FAMILY",
+    "title": "Trusted by Orange County Cat Parents Since 1993",
+    "description": "Cats Luv Us Boarding Hotel is proud to be a pillar of the South Orange County pet care community, building trust with cat parents through decades of dedicated, cat-exclusive care.",
+    "badges": [
+      "30+ Years",
+      "Cat-Exclusive",
+      "120+ Reviews",
+      "Laguna Niguel",
+      "Family Owned"
+    ],
+    "ugc": {
+      "title": "Join Our Cat Parent Community",
+      "text": "Follow us on social media to see daily photos of our guests, cat care tips, and behind-the-scenes moments. Tag #CatsLuvUs to share your cat's story!",
+      "hashtag": "#CatsLuvUs",
+      "socialLinks": [
+        { "label": "Facebook", "href": "https://www.facebook.com/catsluvus" },
+        { "label": "Instagram", "href": "https://www.instagram.com/catsluvus" },
+        { "label": "Yelp", "href": "https://www.yelp.com/biz/cats-luv-us-boarding-hotel-laguna-niguel" }
+      ]
+    }
+  },
+  "pageInfo": {
+    "author": "The Cats Luv Us Team",
+    "authorHref": "about-us.html",
+    "lastUpdated": "2026-02-28",
+    "readTime": "8 min read",
+    "factChecked": "Fact-checked by our Cat Care Specialists",
+    "summary": "Orange County's only cat-exclusive boarding, grooming, and daycare facility. Family-owned for over 30 years with a 4.5-star Google rating from 120+ reviews. Located at 27601 Forbes Rd #25, Laguna Niguel, CA 92677 — on Forbes Rd & Crown Valley, across from Costco.",
+    "tableOfContents": [
+      { "label": "Our Services", "href": "#services-section" },
+      { "label": "How It Works", "href": "#how-it-works" },
+      { "label": "Reviews & Reputation", "href": "#reviews-section" },
+      { "label": "Reasons to Board", "href": "#reasons-to-board" },
+      { "label": "5-Point Care Promise", "href": "#care-promise" },
+      { "label": "Us vs. Typical Boarding", "href": "#comparison" },
+      { "label": "FAQ", "href": "#faq-section" },
+      { "label": "Cat Boarding Myths", "href": "#myths-section" },
+      { "label": "Get a Quote", "href": "#cost-estimator" },
+      { "label": "Our Impact", "href": "#stats-section" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Cats Luv Us Boarding Hotel. All Rights Reserved.",
+    "address": "27601 Forbes Rd #25, Laguna Niguel, CA 92677",
+    "phone": "(949) 582-1732",
+    "tagline": "HERE FOR YOUR CAT AROUND THE CLOCK!"
+  }
+}
