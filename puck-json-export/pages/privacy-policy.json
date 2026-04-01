@@ -1,0 +1,225 @@
+{
+  "content": [
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-banner-8f7fe696",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "description": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-bdadb8b8",
+        "heading": "",
+        "content": "How Cats Luv Us Boarding Hotel collects, uses, and protects your information.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-ccbba7b7",
+        "heading": "Introduction",
+        "content": "Last Updated: February 2026\n\nCats Luv Us Boarding Hotel (“we,” “us,” or “our”) respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (catsluvus.com), use our services, or communicate with us.\n\nWe may collect the following types of information:\n\nWe use the information we collect to provide, maintain, and improve our cat care services, process reservations and payments, communicate with you about your cat’s stay or upcoming appointments, send promotional materials and updates (with your consent), respond to your inquiries and support requests, improve our website and user experience, and comply with legal obligations.\n\nWe do not sell, trade, or rent your personal information to third parties. We may share your information with trusted service providers who assist us in operating our business (payment processors, email service providers), veterinary professionals when necessary for your cat’s care, and law enforcement or regulatory authorities when required by law.\n\nWe implement reasonable administrative, technical, and physical security measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.\n\nOur website uses cookies and similar tracking technologies to enhance your browsing experience and analyze website traffic. You can control cookie settings through your browser preferences. Disabling cookies may affect certain functionality of our website.\n\nDepending on your location, you may have the right to access the personal information we hold about you, request correction of inaccurate information, request deletion of your personal information, opt out of marketing communications, and lodge a complaint with a data protection authority.\n\nCalifornia residents may have additional rights under the California Consumer Privacy Act (CCPA). To exercise any of these rights, please contact us using the information below.\n\nOur services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected such information, we will take steps to delete it promptly.\n\nWe may update this Privacy Policy from time to time. The “Last Updated” date at the top of this page reflects the most recent revision. We encourage you to review this policy periodically.\n\nIf you have questions about this Privacy Policy or our data practices, please contact us:\n\nCats Luv Us Boarding Hotel 27601 Forbes Rd, Laguna Niguel, CA 92677 Phone: (949) 582-1732 Email: catsluvus@gmail.com",
+        "listItems": [
+          "Personal Information: Name, email address, phone number, mailing address, and payment information when you make a reservation or contact us.",
+          "Pet Information: Your cat’s name, breed, age, health conditions, vaccination records, and behavioral notes provided during registration.",
+          "Website Usage Data: IP address, browser type, pages visited, time spent on pages, and referring URLs collected automatically through cookies and analytics tools.",
+          "Communication Records: Emails, phone call logs, and form submissions when you contact us."
+        ],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-e02b4af4",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "content": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-23e5b273",
+        "heading": "Here for You When You Need Us Most!",
+        "content": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help.\n\nWe guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked.\n\nBefore we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises.\n\nWe understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-5d70ee1e",
+        "heading": "When You Need It Most!",
+        "content": "DEDICATED, RELIABLE CAT CARE\n\nCats Luv Us Boarding Hotel provides our clients with the ultimate service: peace of mind. Because we're a cat-exclusive facility with over 30 years of dedicated experience, we can provide a level of specialized care that mixed-pet facilities simply can't match. No dogs, no stress, no compromises—just expert feline care at a great value.\n\nHappy cats in our care",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-954ee5f0",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "content": "CARING FOR YOUR ENTIRE FAMILY\n\nCats Luv Us Boarding Hotel is proud to be a pillar of the South Orange County pet care community, building trust with cat parents through decades of dedicated, cat-exclusive care.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "GuaranteesGrid",
+      "props": {
+        "id": "guarantees-8be4cb5d",
+        "heading": "Here for You When You Need Us Most!",
+        "cards": [
+          {
+            "title": "'Round the Clock Availability",
+            "description": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help."
+          },
+          {
+            "title": "100% Satisfaction Guarantee",
+            "description": "We guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked."
+          },
+          {
+            "title": "Straightforward Pricing",
+            "description": "Before we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises."
+          },
+          {
+            "title": "Always On Time—Guaranteed!",
+            "description": "We understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CommunityTrust",
+      "props": {
+        "id": "community-eb0a8699",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "logos": []
+      }
+    },
+    {
+      "type": "PreFooter",
+      "props": {
+        "id": "prefooter-ea647940",
+        "phone": "(949) 582-1732",
+        "socialLinks": [
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          },
+          {
+            "label": "Yelp",
+            "href": "#"
+          },
+          {
+            "label": "Google",
+            "href": "#"
+          }
+        ],
+        "bookingButtonText": "Book Now",
+        "bookingButtonHref": "contact.html"
+      }
+    },
+    {
+      "type": "FooterNav",
+      "props": {
+        "id": "footer-nav-169462f5",
+        "links": [
+          {
+            "text": "Services",
+            "href": "services.html"
+          },
+          {
+            "text": "About Us",
+            "href": "about-us.html"
+          },
+          {
+            "text": "Our Guarantees",
+            "href": "about-us-our-guarantees.html"
+          },
+          {
+            "text": "Reviews",
+            "href": "reviews.html"
+          },
+          {
+            "text": "Contact",
+            "href": "contact.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "CopyrightBar",
+      "props": {
+        "id": "copyright-f53e21f2",
+        "text": "© 2026 Cats Luv Us Boarding Hotel. All Rights Reserved.",
+        "links": [
+          {
+            "text": "Accessibility",
+            "href": "accessibility.html"
+          },
+          {
+            "text": "Site Map",
+            "href": "areas-we-service.html"
+          },
+          {
+            "text": "Privacy Policy",
+            "href": "privacy-policy.html"
+          }
+        ]
+      }
+    }
+  ],
+  "root": {
+    "props": {
+      "title": "Privacy Policy | Cats Luv Us Boarding Hotel",
+      "description": "Privacy Policy - Cats Luv Us Boarding Hotel in Laguna Niguel, CA. Cat-exclusive boarding, grooming, and daycare since 1993.",
+      "canonical": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "jsonLd": []
+    }
+  },
+  "zones": {}
+}

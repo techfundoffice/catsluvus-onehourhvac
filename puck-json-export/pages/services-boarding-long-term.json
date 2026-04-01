@@ -1,0 +1,224 @@
+{
+  "content": [
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-banner-2b8b4d89",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "description": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-353cd97d",
+        "heading": "Long-Term Cat Boarding",
+        "content": "LONG-TERM BOARDING\n\nLife doesn’t always go as planned. Whether you’re relocating, traveling for an extended period, dealing with a family emergency, or undergoing home renovations, Cats Luv Us offers long-term boarding options that ensure your cat is safe, comfortable, and well-cared-for — for as long as they need to stay.\n\nOur long-term boarding program is specifically designed for stays of two weeks or more, with significant savings compared to our nightly rates. We understand that extended stays require a different level of care and attention, and our protocols reflect that with enhanced enrichment schedules, regular health assessments, and more personalized daily routines.\n\nStandard Suite (30 days): Starting at $750/month Luxury Suite (30 days): Starting at $1,100/month Second Cat (same suite): 25% discount on second cat 90+ Day Rate: Additional 10% discount available\n\nRates subject to change. Contact us for a personalized long-term quote.\n\nCats are creatures of routine, and extended stays can be a significant adjustment. That’s why our long-term boarding program includes a detailed intake interview where we learn about your cat’s daily habits, food preferences, play style, sleeping patterns, and any behavioral quirks. We use this information to create a customized daily schedule that mirrors your cat’s routine at home as closely as possible.\n\nOur cat care specialists also monitor for signs of stress or behavioral changes throughout the stay. If we notice anything concerning, we’ll contact you and, if necessary, consult with your veterinarian to ensure your cat remains healthy and happy.\n\nWe encourage pet parents to visit their cats during long-term stays. You’re welcome to schedule visitation times during our regular hours. For cat parents who are traveling or unable to visit, we provide regular photo and video updates so you can see your cat thriving in our care.\n\nReady to discuss a long-term boarding plan for your cat? Contact us today or call (949) 582-1732 to speak with a team member about rates and availability.\n\nReady to treat your cat to the best care in Orange County? Reserve their spot today.\n\nor call (949) 582-1732",
+        "listItems": [
+          "Customized daily routine tailored to your cat’s individual preferences",
+          "Extended enrichment sessions to prevent boredom and promote mental health",
+          "Weekly weight and health monitoring with documented reports",
+          "Regular rotation of toys, activities, and sensory enrichment",
+          "Bi-weekly grooming maintenance (nail trim, brush-out) included",
+          "Monthly photo or video updates for pet parents",
+          "Flexible scheduling for drop-off and pick-up"
+        ],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-3cf67f64",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "content": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-dab3da4e",
+        "heading": "Here for You When You Need Us Most!",
+        "content": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help.\n\nWe guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked.\n\nBefore we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises.\n\nWe understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-c31c2e07",
+        "heading": "When You Need It Most!",
+        "content": "DEDICATED, RELIABLE CAT CARE\n\nCats Luv Us Boarding Hotel provides our clients with the ultimate service: peace of mind. Because we're a cat-exclusive facility with over 30 years of dedicated experience, we can provide a level of specialized care that mixed-pet facilities simply can't match. No dogs, no stress, no compromises—just expert feline care at a great value.\n\nHappy cats in our care",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-3e139b3d",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "content": "CARING FOR YOUR ENTIRE FAMILY\n\nCats Luv Us Boarding Hotel is proud to be a pillar of the South Orange County pet care community, building trust with cat parents through decades of dedicated, cat-exclusive care.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "GuaranteesGrid",
+      "props": {
+        "id": "guarantees-d5f52cb6",
+        "heading": "Here for You When You Need Us Most!",
+        "cards": [
+          {
+            "title": "'Round the Clock Availability",
+            "description": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help."
+          },
+          {
+            "title": "100% Satisfaction Guarantee",
+            "description": "We guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked."
+          },
+          {
+            "title": "Straightforward Pricing",
+            "description": "Before we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises."
+          },
+          {
+            "title": "Always On Time—Guaranteed!",
+            "description": "We understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CommunityTrust",
+      "props": {
+        "id": "community-7a15f19c",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "logos": []
+      }
+    },
+    {
+      "type": "PreFooter",
+      "props": {
+        "id": "prefooter-fbe1daf9",
+        "phone": "(949) 582-1732",
+        "socialLinks": [
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          },
+          {
+            "label": "Yelp",
+            "href": "#"
+          },
+          {
+            "label": "Google",
+            "href": "#"
+          }
+        ],
+        "bookingButtonText": "Book Now",
+        "bookingButtonHref": "contact.html"
+      }
+    },
+    {
+      "type": "FooterNav",
+      "props": {
+        "id": "footer-nav-9341245f",
+        "links": [
+          {
+            "text": "Services",
+            "href": "services.html"
+          },
+          {
+            "text": "About Us",
+            "href": "about-us.html"
+          },
+          {
+            "text": "Our Guarantees",
+            "href": "about-us-our-guarantees.html"
+          },
+          {
+            "text": "Reviews",
+            "href": "reviews.html"
+          },
+          {
+            "text": "Contact",
+            "href": "contact.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "CopyrightBar",
+      "props": {
+        "id": "copyright-82f32047",
+        "text": "© 2026 Cats Luv Us Boarding Hotel. All Rights Reserved.",
+        "links": [
+          {
+            "text": "Accessibility",
+            "href": "accessibility.html"
+          },
+          {
+            "text": "Site Map",
+            "href": "areas-we-service.html"
+          },
+          {
+            "text": "Privacy Policy",
+            "href": "privacy-policy.html"
+          }
+        ]
+      }
+    }
+  ],
+  "root": {
+    "props": {
+      "title": "Long-Term Cat Boarding | Cats Luv Us Boarding Hotel",
+      "description": "Long-Term Cat Boarding - Cats Luv Us Boarding Hotel in Laguna Niguel, CA. Cat-exclusive boarding, grooming, and daycare since 1993.",
+      "canonical": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "jsonLd": []
+    }
+  },
+  "zones": {}
+}

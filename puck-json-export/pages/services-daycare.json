@@ -1,0 +1,224 @@
+{
+  "content": [
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-banner-ee7c8b6f",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "description": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-8039eb38",
+        "heading": "Cat Daycare Services",
+        "content": "CAT DAYCARE\n\nDoes your cat spend long hours home alone? Are you worried about boredom, loneliness, or destructive behavior while you’re at work? Cats Luv Us Cat Daycare provides a stimulating, supervised daytime environment where your cat can socialize, play, explore, and rest — all under the watchful care of our trained cat care specialists.\n\nOur daycare program is designed for cats who thrive with company, enjoy interactive play, or simply need more stimulation than an empty house can provide. It’s also an excellent option for kittens who need socialization, post-surgical cats who need monitoring while you’re at work, or senior cats who benefit from daily wellness checks and gentle activity.\n\nWhen your cat arrives in the morning, they’ll be welcomed by our team and settled into the daycare area, which features climbing structures, window perches, interactive toys, hiding spots, and comfortable resting nooks. Throughout the day, our specialists engage cats in structured play sessions using feather wands, laser pointers, puzzle feeders, and other enrichment tools that stimulate natural hunting instincts and promote physical exercise.\n\nCats who prefer solo activities have access to quiet zones with individual perches and cozy beds. We understand that not every cat is a social butterfly, and we respect each cat’s individual comfort level. All cats in our daycare program must pass a temperament assessment to ensure they are comfortable in a shared environment.\n\nFull Day (single cat): Starting at $28/day Half Day (4 hours or less): Starting at $18/day 5-Day Package: Starting at $120 (save $20) 10-Day Package: Starting at $220 (save $60) Second Cat Discount: 20% off second cat\n\nRates subject to change. Club members receive additional discounts.\n\nAll daycare cats must be current on FVRCP and rabies vaccinations, spayed or neutered (for cats 6 months and older), free of fleas and parasites, and in general good health. A temperament evaluation is required before the first daycare session to ensure your cat is comfortable in a shared environment. Cats who show signs of aggression or extreme stress in social settings may be better suited for individual boarding or in-home pet sitting.\n\nEnroll your cat in daycare today! Contact us or call (949) 582-1732 .\n\nReady to treat your cat to the best care in Orange County? Reserve their spot today.\n\nor call (949) 582-1732",
+        "listItems": [
+          "7:30 AM – 9:00 AM: Drop-off window & morning check-in",
+          "9:00 AM – 10:30 AM: Morning play session & enrichment",
+          "10:30 AM – 12:00 PM: Rest time & window watching",
+          "12:00 PM – 12:30 PM: Midday snack & water refresh",
+          "12:30 PM – 2:00 PM: Afternoon play session",
+          "2:00 PM – 4:00 PM: Quiet time & individual attention",
+          "4:00 PM – 6:00 PM: Pick-up window"
+        ],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-83772d13",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "content": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-fb2b32fa",
+        "heading": "Here for You When You Need Us Most!",
+        "content": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help.\n\nWe guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked.\n\nBefore we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises.\n\nWe understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-04da50d9",
+        "heading": "When You Need It Most!",
+        "content": "DEDICATED, RELIABLE CAT CARE\n\nCats Luv Us Boarding Hotel provides our clients with the ultimate service: peace of mind. Because we're a cat-exclusive facility with over 30 years of dedicated experience, we can provide a level of specialized care that mixed-pet facilities simply can't match. No dogs, no stress, no compromises—just expert feline care at a great value.\n\nHappy cats in our care",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-a8887a53",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "content": "CARING FOR YOUR ENTIRE FAMILY\n\nCats Luv Us Boarding Hotel is proud to be a pillar of the South Orange County pet care community, building trust with cat parents through decades of dedicated, cat-exclusive care.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "GuaranteesGrid",
+      "props": {
+        "id": "guarantees-17b50096",
+        "heading": "Here for You When You Need Us Most!",
+        "cards": [
+          {
+            "title": "'Round the Clock Availability",
+            "description": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help."
+          },
+          {
+            "title": "100% Satisfaction Guarantee",
+            "description": "We guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked."
+          },
+          {
+            "title": "Straightforward Pricing",
+            "description": "Before we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises."
+          },
+          {
+            "title": "Always On Time—Guaranteed!",
+            "description": "We understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CommunityTrust",
+      "props": {
+        "id": "community-c948baa5",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "logos": []
+      }
+    },
+    {
+      "type": "PreFooter",
+      "props": {
+        "id": "prefooter-67349981",
+        "phone": "(949) 582-1732",
+        "socialLinks": [
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          },
+          {
+            "label": "Yelp",
+            "href": "#"
+          },
+          {
+            "label": "Google",
+            "href": "#"
+          }
+        ],
+        "bookingButtonText": "Book Now",
+        "bookingButtonHref": "contact.html"
+      }
+    },
+    {
+      "type": "FooterNav",
+      "props": {
+        "id": "footer-nav-e85b14ea",
+        "links": [
+          {
+            "text": "Services",
+            "href": "services.html"
+          },
+          {
+            "text": "About Us",
+            "href": "about-us.html"
+          },
+          {
+            "text": "Our Guarantees",
+            "href": "about-us-our-guarantees.html"
+          },
+          {
+            "text": "Reviews",
+            "href": "reviews.html"
+          },
+          {
+            "text": "Contact",
+            "href": "contact.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "CopyrightBar",
+      "props": {
+        "id": "copyright-4206f871",
+        "text": "© 2026 Cats Luv Us Boarding Hotel. All Rights Reserved.",
+        "links": [
+          {
+            "text": "Accessibility",
+            "href": "accessibility.html"
+          },
+          {
+            "text": "Site Map",
+            "href": "areas-we-service.html"
+          },
+          {
+            "text": "Privacy Policy",
+            "href": "privacy-policy.html"
+          }
+        ]
+      }
+    }
+  ],
+  "root": {
+    "props": {
+      "title": "Cat Daycare | Cats Luv Us Boarding Hotel",
+      "description": "Cat Daycare - Cats Luv Us Boarding Hotel in Laguna Niguel, CA. Cat-exclusive boarding, grooming, and daycare since 1993.",
+      "canonical": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "jsonLd": []
+    }
+  },
+  "zones": {}
+}

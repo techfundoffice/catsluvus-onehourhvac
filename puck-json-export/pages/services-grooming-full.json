@@ -1,0 +1,227 @@
+{
+  "content": [
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-banner-02e9f0ba",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "description": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-8f0ef82c",
+        "heading": "Full Grooming Package",
+        "content": "FULL GROOMING PACKAGE\n\nOur Full Grooming Package is the most comprehensive grooming service we offer, designed for cats who need thorough coat care, styling, or significant detangling and mat removal. This is our signature service for long-haired breeds, cats with neglected coats, and feline owners who want their cat to look and feel absolutely their best.\n\nLion Cut: The most popular feline styling option, the lion cut involves clipping the body short while leaving a full mane around the head and neck, fur on the lower legs (boots), and a pom on the tail tip. This cut is ideal for cats with severe matting, cats who overheat, or cats whose long coats are difficult for their owners to maintain between grooming sessions.\n\nTeddy Bear Cut: A softer alternative to the lion cut, the teddy bear cut trims the coat to an even, medium length (about 1 inch) all over the body, giving the cat a plush, rounded appearance. This option works well for cats who mat easily but whose owners prefer a more natural look.\n\nBreed-Specific Trim: For breeds like Persians, Himalayans, and Maine Coons, we offer breed-specific grooming that maintains the cat’s natural coat characteristics while keeping the fur manageable and healthy.\n\nShort/Medium Coat: Starting at $75 Long Coat: Starting at $95 Lion Cut or Teddy Bear Cut: Starting at $110 Severe Mat Removal: Priced by condition (consult required)\n\nRates vary based on coat condition, size, and temperament. Contact us for a quote.\n\nA full grooming session typically takes 1 to 2 hours, depending on the cat’s coat condition and the styling requested. For cats with severe matting or those requiring extensive detangling, we may recommend a two-session approach to minimize stress. Our groomers never rush — they work at your cat’s pace and take breaks as needed.\n\nTo help ensure the best possible grooming experience, we recommend bringing your cat in on an empty stomach (no food within 2 hours of the appointment) to reduce the risk of nausea during the bath. Let us know about any skin sensitivities, allergies, or behavioral concerns so we can tailor our approach accordingly.\n\nSchedule your cat’s full grooming appointment today. Contact us online or call (949) 582-1732 .\n\nReady to treat your cat to the best care in Orange County? Reserve their spot today.\n\nor call (949) 582-1732",
+        "listItems": [
+          "Warm water bath with breed-appropriate shampoo",
+          "Deep conditioning treatment",
+          "Professional blow-dry with low-heat dryer",
+          "Complete brush-out and detangling",
+          "Mat removal (severe matting may require shaving)",
+          "Nail trim on all four paws",
+          "Ear cleaning and inspection",
+          "Sanitary trim (belly and rear area)",
+          "Optional styling: lion cut, teddy bear cut, or breed-specific trim",
+          "Finishing spritz and paw pad moisturizer"
+        ],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-76a5dd2b",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "content": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-b23758f3",
+        "heading": "Here for You When You Need Us Most!",
+        "content": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help.\n\nWe guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked.\n\nBefore we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises.\n\nWe understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-4097b4ca",
+        "heading": "When You Need It Most!",
+        "content": "DEDICATED, RELIABLE CAT CARE\n\nCats Luv Us Boarding Hotel provides our clients with the ultimate service: peace of mind. Because we're a cat-exclusive facility with over 30 years of dedicated experience, we can provide a level of specialized care that mixed-pet facilities simply can't match. No dogs, no stress, no compromises—just expert feline care at a great value.\n\nHappy cats in our care",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-52f1d80a",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "content": "CARING FOR YOUR ENTIRE FAMILY\n\nCats Luv Us Boarding Hotel is proud to be a pillar of the South Orange County pet care community, building trust with cat parents through decades of dedicated, cat-exclusive care.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "GuaranteesGrid",
+      "props": {
+        "id": "guarantees-6060119e",
+        "heading": "Here for You When You Need Us Most!",
+        "cards": [
+          {
+            "title": "'Round the Clock Availability",
+            "description": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help."
+          },
+          {
+            "title": "100% Satisfaction Guarantee",
+            "description": "We guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked."
+          },
+          {
+            "title": "Straightforward Pricing",
+            "description": "Before we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises."
+          },
+          {
+            "title": "Always On Time—Guaranteed!",
+            "description": "We understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CommunityTrust",
+      "props": {
+        "id": "community-02f1c029",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "logos": []
+      }
+    },
+    {
+      "type": "PreFooter",
+      "props": {
+        "id": "prefooter-8ec29d74",
+        "phone": "(949) 582-1732",
+        "socialLinks": [
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          },
+          {
+            "label": "Yelp",
+            "href": "#"
+          },
+          {
+            "label": "Google",
+            "href": "#"
+          }
+        ],
+        "bookingButtonText": "Book Now",
+        "bookingButtonHref": "contact.html"
+      }
+    },
+    {
+      "type": "FooterNav",
+      "props": {
+        "id": "footer-nav-4c9085f4",
+        "links": [
+          {
+            "text": "Services",
+            "href": "services.html"
+          },
+          {
+            "text": "About Us",
+            "href": "about-us.html"
+          },
+          {
+            "text": "Our Guarantees",
+            "href": "about-us-our-guarantees.html"
+          },
+          {
+            "text": "Reviews",
+            "href": "reviews.html"
+          },
+          {
+            "text": "Contact",
+            "href": "contact.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "CopyrightBar",
+      "props": {
+        "id": "copyright-b63d3b73",
+        "text": "© 2026 Cats Luv Us Boarding Hotel. All Rights Reserved.",
+        "links": [
+          {
+            "text": "Accessibility",
+            "href": "accessibility.html"
+          },
+          {
+            "text": "Site Map",
+            "href": "areas-we-service.html"
+          },
+          {
+            "text": "Privacy Policy",
+            "href": "privacy-policy.html"
+          }
+        ]
+      }
+    }
+  ],
+  "root": {
+    "props": {
+      "title": "Full Grooming Package | Cats Luv Us Boarding Hotel",
+      "description": "Full Grooming Package - Cats Luv Us Boarding Hotel in Laguna Niguel, CA. Cat-exclusive boarding, grooming, and daycare since 1993.",
+      "canonical": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "jsonLd": []
+    }
+  },
+  "zones": {}
+}

@@ -1,0 +1,616 @@
+{
+  "components": {
+    "AnnouncementBar": {
+      "label": "Announcement Bar",
+      "fields": {
+        "text": {
+          "type": "text",
+          "label": "Announcement Text"
+        },
+        "href": {
+          "type": "text",
+          "label": "Link URL"
+        },
+        "backgroundColor": {
+          "type": "text",
+          "label": "Background Color"
+        }
+      }
+    },
+    "ContactBar": {
+      "label": "Contact Bar",
+      "fields": {
+        "items": {
+          "type": "array",
+          "label": "Contact Items",
+          "arrayFields": {
+            "text": {
+              "type": "text"
+            },
+            "href": {
+              "type": "text"
+            }
+          }
+        },
+        "socialLinks": {
+          "type": "array",
+          "label": "Social Links",
+          "arrayFields": {
+            "href": {
+              "type": "text"
+            },
+            "label": {
+              "type": "text"
+            }
+          }
+        }
+      }
+    },
+    "SiteHeader": {
+      "label": "Site Header",
+      "fields": {
+        "logoText": {
+          "type": "text",
+          "label": "Logo Text"
+        },
+        "logoSubtext": {
+          "type": "text",
+          "label": "Logo Subtext"
+        },
+        "badge": {
+          "type": "text",
+          "label": "Badge Text"
+        },
+        "bookingButtons": {
+          "type": "array",
+          "label": "Booking Buttons"
+        },
+        "utilityLinks": {
+          "type": "array",
+          "label": "Utility Links"
+        }
+      }
+    },
+    "NavBar": {
+      "label": "Navigation Bar",
+      "fields": {
+        "links": {
+          "type": "array",
+          "label": "Nav Links"
+        },
+        "backgroundColor": {
+          "type": "text",
+          "label": "Background Color"
+        }
+      }
+    },
+    "VideoSection": {
+      "label": "Video Section",
+      "fields": {
+        "eyebrow": {
+          "type": "text",
+          "label": "Eyebrow Text"
+        },
+        "heading": {
+          "type": "text",
+          "label": "Heading"
+        },
+        "videoUrl": {
+          "type": "text",
+          "label": "Video URL"
+        },
+        "caption": {
+          "type": "textarea",
+          "label": "Caption"
+        }
+      }
+    },
+    "WellnessDashboard": {
+      "label": "Wellness Dashboard",
+      "fields": {
+        "stats": {
+          "type": "array",
+          "label": "Dashboard Stats"
+        }
+      }
+    },
+    "Hero": {
+      "label": "Hero Section",
+      "fields": {
+        "eyebrow": {
+          "type": "text",
+          "label": "Eyebrow Text"
+        },
+        "heading": {
+          "type": "text",
+          "label": "Heading (H1)"
+        },
+        "subtitle": {
+          "type": "textarea",
+          "label": "Subtitle"
+        },
+        "ratingValue": {
+          "type": "text",
+          "label": "Rating Value"
+        },
+        "ratingCount": {
+          "type": "text",
+          "label": "Rating Count"
+        },
+        "buttons": {
+          "type": "array",
+          "label": "CTA Buttons"
+        },
+        "backgroundImage": {
+          "type": "text",
+          "label": "Background Image URL"
+        }
+      }
+    },
+    "PromoSection": {
+      "label": "Promotional Section",
+      "fields": {
+        "eyebrow": {
+          "type": "text",
+          "label": "Eyebrow"
+        },
+        "heading": {
+          "type": "text",
+          "label": "Heading"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description"
+        },
+        "features": {
+          "type": "array",
+          "label": "Feature List"
+        },
+        "buttons": {
+          "type": "array",
+          "label": "CTA Buttons"
+        },
+        "urgency": {
+          "type": "radio",
+          "label": "Show Urgency",
+          "options": [
+            {
+              "label": "Yes",
+              "value": true
+            },
+            {
+              "label": "No",
+              "value": false
+            }
+          ]
+        }
+      }
+    },
+    "HowItWorks": {
+      "label": "How It Works",
+      "fields": {
+        "eyebrow": {
+          "type": "text"
+        },
+        "heading": {
+          "type": "text"
+        },
+        "steps": {
+          "type": "array",
+          "arrayFields": {
+            "number": {
+              "type": "text"
+            },
+            "title": {
+              "type": "text"
+            },
+            "description": {
+              "type": "textarea"
+            }
+          }
+        }
+      }
+    },
+    "ReviewsSection": {
+      "label": "Reviews & Reputation",
+      "fields": {
+        "title": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "text"
+        },
+        "overallScore": {
+          "type": "text"
+        },
+        "reviewCount": {
+          "type": "text"
+        },
+        "reviews": {
+          "type": "array",
+          "arrayFields": {
+            "author": {
+              "type": "text"
+            },
+            "date": {
+              "type": "text"
+            },
+            "text": {
+              "type": "textarea"
+            },
+            "source": {
+              "type": "text"
+            },
+            "rating": {
+              "type": "number"
+            }
+          }
+        },
+        "backgroundColor": {
+          "type": "text"
+        }
+      }
+    },
+    "ValueProp": {
+      "label": "Value Proposition",
+      "fields": {
+        "eyebrow": {
+          "type": "text"
+        },
+        "heading": {
+          "type": "text"
+        },
+        "cards": {
+          "type": "array"
+        }
+      }
+    },
+    "ServicesGrid": {
+      "label": "Services Grid",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "services": {
+          "type": "array"
+        }
+      }
+    },
+    "ReasonsList": {
+      "label": "Reasons List",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "items": {
+          "type": "array"
+        }
+      }
+    },
+    "GuaranteesGrid": {
+      "label": "Guarantees Grid",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "cards": {
+          "type": "array"
+        }
+      }
+    },
+    "CarePromise": {
+      "label": "5-Point Care Promise",
+      "fields": {
+        "eyebrow": {
+          "type": "text"
+        },
+        "heading": {
+          "type": "text"
+        },
+        "subtitle": {
+          "type": "textarea"
+        },
+        "points": {
+          "type": "array"
+        }
+      }
+    },
+    "ComparisonTable": {
+      "label": "Comparison Table",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "headers": {
+          "type": "array"
+        },
+        "rows": {
+          "type": "array"
+        }
+      }
+    },
+    "FAQSection": {
+      "label": "FAQ Section",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "faqs": {
+          "type": "array"
+        }
+      }
+    },
+    "MythsSection": {
+      "label": "Myths Debunked",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "myths": {
+          "type": "array"
+        }
+      }
+    },
+    "QuoteSection": {
+      "label": "Request a Quote",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "description": {
+          "type": "textarea"
+        },
+        "buttons": {
+          "type": "array"
+        }
+      }
+    },
+    "PeopleAlsoAsk": {
+      "label": "People Also Ask",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "questions": {
+          "type": "array"
+        }
+      }
+    },
+    "StatsSection": {
+      "label": "Stats & Data",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "stats": {
+          "type": "array"
+        },
+        "quote": {
+          "type": "textarea"
+        }
+      }
+    },
+    "NewsletterCTA": {
+      "label": "Newsletter CTA",
+      "fields": {
+        "eyebrow": {
+          "type": "text"
+        },
+        "heading": {
+          "type": "text"
+        },
+        "description": {
+          "type": "textarea"
+        },
+        "buttonText": {
+          "type": "text"
+        },
+        "buttonHref": {
+          "type": "text"
+        },
+        "note": {
+          "type": "text"
+        }
+      }
+    },
+    "CertificationsBar": {
+      "label": "Certifications Bar",
+      "fields": {
+        "certifications": {
+          "type": "array"
+        }
+      }
+    },
+    "CommunityTrust": {
+      "label": "Community Trust",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "logos": {
+          "type": "array"
+        }
+      }
+    },
+    "ArticleInfo": {
+      "label": "Article Info (SEO)",
+      "fields": {
+        "breadcrumbs": {
+          "type": "array"
+        },
+        "author": {
+          "type": "text"
+        },
+        "date": {
+          "type": "text"
+        },
+        "readTime": {
+          "type": "text"
+        },
+        "summary": {
+          "type": "textarea"
+        },
+        "tocItems": {
+          "type": "array"
+        },
+        "collapsible": {
+          "type": "radio"
+        }
+      }
+    },
+    "GoogleMap": {
+      "label": "Google Map",
+      "fields": {
+        "embedUrl": {
+          "type": "text"
+        },
+        "height": {
+          "type": "text"
+        },
+        "title": {
+          "type": "text"
+        }
+      }
+    },
+    "PreFooter": {
+      "label": "Pre-Footer Brand Bar",
+      "fields": {
+        "phone": {
+          "type": "text"
+        },
+        "socialLinks": {
+          "type": "array"
+        },
+        "bookingButtonText": {
+          "type": "text"
+        },
+        "bookingButtonHref": {
+          "type": "text"
+        }
+      }
+    },
+    "FooterNav": {
+      "label": "Footer Navigation",
+      "fields": {
+        "links": {
+          "type": "array"
+        }
+      }
+    },
+    "CopyrightBar": {
+      "label": "Copyright Bar",
+      "fields": {
+        "text": {
+          "type": "text"
+        },
+        "links": {
+          "type": "array"
+        }
+      }
+    },
+    "StickyMobileCTA": {
+      "label": "Sticky Mobile CTA",
+      "fields": {
+        "buttons": {
+          "type": "array"
+        },
+        "showOnMobileOnly": {
+          "type": "radio"
+        }
+      }
+    },
+    "CTABanner": {
+      "label": "CTA Banner",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "description": {
+          "type": "textarea"
+        },
+        "buttons": {
+          "type": "array"
+        }
+      }
+    },
+    "ContentSection": {
+      "label": "Content Section",
+      "fields": {
+        "heading": {
+          "type": "text"
+        },
+        "content": {
+          "type": "textarea"
+        },
+        "listItems": {
+          "type": "array"
+        },
+        "buttons": {
+          "type": "array"
+        }
+      }
+    }
+  },
+  "categories": {
+    "layout": {
+      "components": [
+        "AnnouncementBar",
+        "ContactBar",
+        "SiteHeader",
+        "NavBar",
+        "PreFooter",
+        "FooterNav",
+        "CopyrightBar",
+        "StickyMobileCTA"
+      ]
+    },
+    "hero": {
+      "components": [
+        "Hero",
+        "CTABanner",
+        "VideoSection"
+      ]
+    },
+    "content": {
+      "components": [
+        "ContentSection",
+        "ValueProp",
+        "ServicesGrid",
+        "ReasonsList",
+        "CarePromise",
+        "HowItWorks",
+        "ComparisonTable",
+        "StatsSection",
+        "WellnessDashboard"
+      ]
+    },
+    "social_proof": {
+      "components": [
+        "ReviewsSection",
+        "CommunityTrust",
+        "CertificationsBar"
+      ]
+    },
+    "conversion": {
+      "components": [
+        "PromoSection",
+        "QuoteSection",
+        "NewsletterCTA",
+        "GoogleMap"
+      ]
+    },
+    "seo": {
+      "components": [
+        "FAQSection",
+        "MythsSection",
+        "PeopleAlsoAsk",
+        "ArticleInfo"
+      ]
+    },
+    "cards": {
+      "components": [
+        "GuaranteesGrid"
+      ]
+    }
+  }
+}

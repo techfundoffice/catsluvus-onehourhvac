@@ -1,0 +1,220 @@
+{
+  "project": "Cats Luv Us Boarding Hotel",
+  "format": "Puck Visual Editor for Payload CMS",
+  "version": "1.0.0",
+  "generated": "2026-03-31",
+  "pages": [
+    {
+      "slug": "about-us-club-membership",
+      "title": "Club Membership | Cats Luv Us Boarding Hotel",
+      "file": "pages/about-us-club-membership.json",
+      "componentCount": 13
+    },
+    {
+      "slug": "about-us-code-of-ethics",
+      "title": "Code of Ethics | Cats Luv Us Boarding Hotel",
+      "file": "pages/about-us-code-of-ethics.json",
+      "componentCount": 12
+    },
+    {
+      "slug": "about-us-our-guarantees",
+      "title": "Our Guarantees | Cats Luv Us Boarding Hotel",
+      "file": "pages/about-us-our-guarantees.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "about-us",
+      "title": "About Us | Cats Luv Us Boarding Hotel",
+      "file": "pages/about-us.json",
+      "componentCount": 15
+    },
+    {
+      "slug": "accessibility",
+      "title": "Accessibility Statement | Cats Luv Us Boarding Hotel",
+      "file": "pages/accessibility.json",
+      "componentCount": 12
+    },
+    {
+      "slug": "areas-we-service-aliso-viejo",
+      "title": "Cat Boarding & Grooming in Aliso Viejo | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-aliso-viejo.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-dana-point",
+      "title": "Cat Boarding & Grooming in Dana Point | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-dana-point.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-irvine",
+      "title": "Cat Boarding & Grooming in Irvine | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-irvine.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-laguna-beach",
+      "title": "Cat Boarding & Grooming in Laguna Beach | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-laguna-beach.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-laguna-niguel",
+      "title": "Cat Boarding & Grooming in Laguna Niguel | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-laguna-niguel.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-lake-forest",
+      "title": "Cat Boarding & Grooming in Lake Forest | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-lake-forest.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-mission-viejo",
+      "title": "Cat Boarding & Grooming in Mission Viejo | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-mission-viejo.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service-san-juan-capistrano",
+      "title": "Cat Boarding & Grooming in San Juan Capistrano | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service-san-juan-capistrano.json",
+      "componentCount": 14
+    },
+    {
+      "slug": "areas-we-service",
+      "title": "Areas We Service | Cats Luv Us Boarding Hotel",
+      "file": "pages/areas-we-service.json",
+      "componentCount": 13
+    },
+    {
+      "slug": "contact",
+      "title": "Contact Us | Cats Luv Us Boarding Hotel",
+      "file": "pages/contact.json",
+      "componentCount": 13
+    },
+    {
+      "slug": "index",
+      "title": "Expert Cat Boarding, Grooming & Daycare in Laguna Niguel | Cats Luv Us Boarding Hotel",
+      "file": "pages/index.json",
+      "componentCount": 25
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy | Cats Luv Us Boarding Hotel",
+      "file": "pages/privacy-policy.json",
+      "componentCount": 12
+    },
+    {
+      "slug": "reviews",
+      "title": "Customer Reviews | Cats Luv Us Boarding Hotel",
+      "file": "pages/reviews.json",
+      "componentCount": 13
+    },
+    {
+      "slug": "services-boarding-long-term",
+      "title": "Long-Term Cat Boarding | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-boarding-long-term.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-boarding-luxury",
+      "title": "Luxury Boarding Suite | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-boarding-luxury.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-boarding-standard",
+      "title": "Standard Boarding Suite | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-boarding-standard.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-boarding",
+      "title": "Cat Boarding | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-boarding.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-daycare",
+      "title": "Cat Daycare | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-daycare.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-grooming-bath",
+      "title": "Bath & Brush Service | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-grooming-bath.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-grooming-full",
+      "title": "Full Grooming Package | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-grooming-full.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services-grooming",
+      "title": "Cat Grooming | Cats Luv Us Boarding Hotel",
+      "file": "pages/services-grooming.json",
+      "componentCount": 11
+    },
+    {
+      "slug": "services",
+      "title": "Our Services | Cats Luv Us Boarding Hotel",
+      "file": "pages/services.json",
+      "componentCount": 13
+    }
+  ],
+  "componentTypes": [
+    "AnnouncementBar",
+    "ContactBar",
+    "SiteHeader",
+    "NavBar",
+    "VideoSection",
+    "WellnessDashboard",
+    "Hero",
+    "PromoSection",
+    "HowItWorks",
+    "ReviewsSection",
+    "ValueProp",
+    "ServicesGrid",
+    "ReasonsList",
+    "GuaranteesGrid",
+    "CarePromise",
+    "ComparisonTable",
+    "FAQSection",
+    "MythsSection",
+    "QuoteSection",
+    "PeopleAlsoAsk",
+    "StatsSection",
+    "NewsletterCTA",
+    "CertificationsBar",
+    "CommunityTrust",
+    "ArticleInfo",
+    "GoogleMap",
+    "PreFooter",
+    "FooterNav",
+    "CopyrightBar",
+    "StickyMobileCTA",
+    "CTABanner",
+    "ContentSection"
+  ],
+  "categories": [
+    "layout",
+    "hero",
+    "content",
+    "social_proof",
+    "conversion",
+    "seo",
+    "cards"
+  ],
+  "notes": {
+    "import": "Each JSON file in /pages/ contains the puckData for one page. Import via Payload CMS API or seed script.",
+    "config": "puck-config-reference.json defines all custom component types needed in your Puck config.",
+    "rendering": "You'll need to create React render functions for each component type in your Payload/Puck project.",
+    "media": "Image/video URLs reference external sources. Upload to Payload media library and update references.",
+    "styles": "The original style.css contains all CSS. Port to your Puck component styles or Tailwind."
+  }
+}

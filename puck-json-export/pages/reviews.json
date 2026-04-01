@@ -1,0 +1,236 @@
+{
+  "content": [
+    {
+      "type": "CTABanner",
+      "props": {
+        "id": "cta-banner-69357541",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "description": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-de47ac54",
+        "heading": "",
+        "content": "See what South Orange County cat owners are saying about Cats Luv Us.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-3728e277",
+        "heading": "",
+        "content": "“We have been taking our cats to Cats Luv Us for over 10 years. The staff is incredibly knowledgeable and truly loves cats. Our senior cat has special dietary needs and they handle everything perfectly. I cannot imagine trusting anyone else with our fur babies.”\n\nPatricia G.\n\nLaguna Niguel, CA\n\n“First time boarding our kitten and the team made us feel so at ease. They sent us photos every day and our kitten seemed happy and playful in every one. The facility is spotless and the cat-only environment really makes a difference. Will definitely be back!”\n\nMichael & Jennifer L.\n\nMission Viejo, CA\n\n“The grooming service here is outstanding. My Persian gets matted so easily and Cats Luv Us always does a beautiful job. The lion cut they gave him looks fantastic and he seems so much more comfortable. The groomers are patient and gentle even with my very fussy boy.”\n\nDana Point, CA\n\n“I travel for work about once a month and Cats Luv Us has become my go-to. The VIP membership is totally worth it — guaranteed holiday availability and the daily photo updates give me such peace of mind. My cat, Luna, actually seems to enjoy her stays!”\n\n“We adopted a very shy rescue cat and were nervous about boarding her. The staff at Cats Luv Us took extra time to make her comfortable, gave her hiding spots and quiet attention, and by the time we picked her up she was actually purring for them. These people truly understand cats.”\n\nAliso Viejo, CA\n\n“The daycare program has been a game changer for our cat, Simba. He was getting into everything when left alone and now he goes to daycare three times a week. He comes home tired and happy. The structured play sessions and socialization have made him a much better-adjusted cat.”\n\nRachel & Tom B.\n\nLake Forest, CA\n\n“Great facility and wonderful staff. The only reason for 4 stars instead of 5 is that holiday booking fills up very fast, so you need to plan well in advance. But the quality of care is absolutely top-notch. Our two cats have been going here for years.”\n\nSan Juan Capistrano, CA\n\n“After a bad experience at another boarding facility that also housed dogs, I switched to Cats Luv Us and the difference is night and day. My cat used to come home stressed and hiding for days. Now she comes home calm and content. The cat-exclusive environment is everything.”\n\nLaguna Beach, CA\n\n“I boarded my three cats here for a month while renovating my house. The long-term boarding rates are very reasonable and the staff went above and beyond to keep all three cats happy. Weekly updates with photos and health reports gave me total peace of mind during a very stressful time.”\n\nMission Viejo, CA",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-147cb7b1",
+        "heading": "Share Your Experience",
+        "content": "Have you boarded, groomed, or enrolled your cat in daycare at Cats Luv Us? We’d love to hear about your experience. Your feedback helps us improve and helps other cat parents find trusted care.",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Leave a Review",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-ca0885a4",
+        "heading": "Ready to Book Your Cat’s Stay?",
+        "content": "Whether it’s a weekend getaway or an extended vacation, your cat will be in loving hands at Cats Luv Us.",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          },
+          {
+            "text": "Call (949) 582-1732",
+            "href": "tel:9495821732",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-98bbebcf",
+        "heading": "Here for You When You Need Us Most!",
+        "content": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help.\n\nWe guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked.\n\nBefore we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises.\n\nWe understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-de5960b4",
+        "heading": "When You Need It Most!",
+        "content": "DEDICATED, RELIABLE CAT CARE\n\nCats Luv Us Boarding Hotel provides our clients with the ultimate service: peace of mind. Because we're a cat-exclusive facility with over 30 years of dedicated experience, we can provide a level of specialized care that mixed-pet facilities simply can't match. No dogs, no stress, no compromises—just expert feline care at a great value.\n\nHappy cats in our care",
+        "listItems": [],
+        "buttons": [
+          {
+            "text": "Book Now",
+            "href": "contact.html",
+            "target": "_self"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ContentSection",
+      "props": {
+        "id": "section-11a8f52d",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "content": "CARING FOR YOUR ENTIRE FAMILY\n\nCats Luv Us Boarding Hotel is proud to be a pillar of the South Orange County pet care community, building trust with cat parents through decades of dedicated, cat-exclusive care.",
+        "listItems": [],
+        "buttons": []
+      }
+    },
+    {
+      "type": "GuaranteesGrid",
+      "props": {
+        "id": "guarantees-85e9131a",
+        "heading": "Here for You When You Need Us Most!",
+        "cards": [
+          {
+            "title": "'Round the Clock Availability",
+            "description": "No matter the hour, you can trust Cats Luv Us to be there for your cat. From holiday boarding to last-minute stays, we're always ready to help."
+          },
+          {
+            "title": "100% Satisfaction Guarantee",
+            "description": "We guarantee your cat's comfort, safety, and happiness. If you're not completely satisfied with our care, we'll make it right—no questions asked."
+          },
+          {
+            "title": "Straightforward Pricing",
+            "description": "Before we begin any service, we discuss your options so you know exactly what you're getting and how much it costs. No hidden fees, no surprises."
+          },
+          {
+            "title": "Always On Time—Guaranteed!",
+            "description": "We understand your time is valuable. We promise to honor your scheduled drop-off and pick-up windows, or your next day of boarding is free."
+          }
+        ]
+      }
+    },
+    {
+      "type": "CommunityTrust",
+      "props": {
+        "id": "community-adf666f4",
+        "heading": "Trusted by Orange County Cat Parents Since 1993",
+        "logos": []
+      }
+    },
+    {
+      "type": "PreFooter",
+      "props": {
+        "id": "prefooter-8dbe4f85",
+        "phone": "(949) 582-1732",
+        "socialLinks": [
+          {
+            "label": "Facebook",
+            "href": "#"
+          },
+          {
+            "label": "Instagram",
+            "href": "#"
+          },
+          {
+            "label": "Yelp",
+            "href": "#"
+          },
+          {
+            "label": "Google",
+            "href": "#"
+          }
+        ],
+        "bookingButtonText": "Book Now",
+        "bookingButtonHref": "contact.html"
+      }
+    },
+    {
+      "type": "FooterNav",
+      "props": {
+        "id": "footer-nav-193a0671",
+        "links": [
+          {
+            "text": "Services",
+            "href": "services.html"
+          },
+          {
+            "text": "About Us",
+            "href": "about-us.html"
+          },
+          {
+            "text": "Our Guarantees",
+            "href": "about-us-our-guarantees.html"
+          },
+          {
+            "text": "Reviews",
+            "href": "reviews.html"
+          },
+          {
+            "text": "Contact",
+            "href": "contact.html"
+          }
+        ]
+      }
+    },
+    {
+      "type": "CopyrightBar",
+      "props": {
+        "id": "copyright-088b6a8e",
+        "text": "© 2026 Cats Luv Us Boarding Hotel. All Rights Reserved.",
+        "links": [
+          {
+            "text": "Accessibility",
+            "href": "accessibility.html"
+          },
+          {
+            "text": "Site Map",
+            "href": "areas-we-service.html"
+          },
+          {
+            "text": "Privacy Policy",
+            "href": "privacy-policy.html"
+          }
+        ]
+      }
+    }
+  ],
+  "root": {
+    "props": {
+      "title": "Customer Reviews | Cats Luv Us Boarding Hotel",
+      "description": "Customer Reviews - Cats Luv Us Boarding Hotel in Laguna Niguel, CA. Cat-exclusive boarding, grooming, and daycare since 1993.",
+      "canonical": "",
+      "ogTitle": "",
+      "ogDescription": "",
+      "ogImage": "",
+      "jsonLd": []
+    }
+  },
+  "zones": {}
+}
